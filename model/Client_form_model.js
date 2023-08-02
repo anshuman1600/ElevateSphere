@@ -1,6 +1,6 @@
 const {model,Schema} = require("../connection");
 
-const trainingFormSchema = new Schema({
+const ClientFormSchema = new Schema({
     name: String,
     email: String,
     phoneNo: String,
@@ -10,4 +10,4 @@ const trainingFormSchema = new Schema({
     message: String,
   });
 
-module.exports = model("trainingForm",trainingFormSchema);
+module.exports = model("Clientform",ClientFormSchema);

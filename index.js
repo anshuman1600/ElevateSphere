@@ -20,7 +20,8 @@ app.use(bodyParser.json());
 
 app.use(express.json());
 
-app.use("/training_form", require("./router/Client_form_router"));
+app.use("/client_form", require("./router/Client_form_router"));
+app.use("/training_form", require("./router/training_form_router"));
 
 
 // Path: index.js
@@ -159,7 +160,7 @@ const Development = [
     hero_image: "images/common/Web/giphy.gif",
     description_title: "Best Website Development Company in Lucknow",
     description_desc:
-      "Searching For the Best Website Development Services in Lucknow To Create a Modern Website For Your Business or Startup? Take Quick Action And Hire Moundweb IT & Web Solutions - A Leading Website Development Company in Lucknow For The Best Website Development Services At Affordable Prices.",
+      " Searching For the  Best Website Development Service in Lucknow  To Create a Modern Website For Your Business or Startup? Take Quick Action And Hire Moundweb IT & Web Solutions - A Leading Website Development Company in Lucknow For The Best Website Development Services At Affordable Prices.",
     description_image: "images/common/Web/desc-image.png",
     tagline: "Web Design",
     advantage_title: "Advantages of Website Development Services in Lucknow",
@@ -3511,6 +3512,9 @@ app.get("/best-web-development-course", (req, res) => {
 });
 app.get("/best-influencer-marketing-company", (req, res) => {
   res.render("influncer-marketing/influencer-index.ejs",Meta_Tag[6]);
+});
+app.get("/best-web-development-service", (req, res) => {
+  res.render("landing/service_all/web_services/index.ejs",Meta_Tag[6]);
 });
 app.get("/best-web-development-training", (req, res) => {
   res.render("training/training_index.ejs",Training[0]);
