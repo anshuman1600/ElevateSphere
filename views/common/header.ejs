@@ -2,6 +2,12 @@
 <html lang="en" class="no-js box-content">
 
 <head>
+<script type="text/javascript">
+    if (window.location.hostname.startsWith('www.')) {
+      // Redirect to the non-www version of the domain
+      window.location.href = window.location.protocol + '//' + window.location.hostname.replace('www.', '') + window.location.pathname;
+    }
+  </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7NPPMXQGW"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -19,7 +25,7 @@
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     
-    <title> <%= pg_title %></title>
+    <title> <%= pg_title %>></title>
     <meta name="<%= meta_1.name %>" content="<%= meta_1.content %>">
     <meta name="<%= meta_2.name %>" content="<%= meta_2.content %>">
     <meta charset="utf-8" />
