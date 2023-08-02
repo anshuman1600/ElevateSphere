@@ -135,6 +135,21 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
+  {
+    page: "Web Development Services" ,
+    pg_title: "Best Website Development Company in Lucknow - Moundweb IT &amp; Web Solutions",
+    meta_1: {
+      name: "description",
+      content:
+        "Are you Looking for a Website Development Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading web Development Company in Lucknow, India. For more Information you can contact us.",
+    },
+    meta_2: {
+      name: "keywords",
+      content:
+        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+    },
+  },
+  // meta 8
 ];
 
 // Service Page Dynamic Data Filling
@@ -3514,7 +3529,7 @@ app.get("/best-influencer-marketing-company", (req, res) => {
   res.render("influncer-marketing/influencer-index.ejs",Meta_Tag[6]);
 });
 app.get("/best-web-development-service", (req, res) => {
-  res.render("landing/service_all/web_services/index.ejs",Meta_Tag[6]);
+  res.render("landing/service_all/web_services/index.ejs",Meta_Tag[7]);
 });
 app.get("/best-web-development-training", (req, res) => {
   res.render("training/training_index.ejs",Training[0]);
