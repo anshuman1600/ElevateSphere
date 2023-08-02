@@ -21,9 +21,6 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.use("/training_form", require("./router/Client_form_router"));
-// app.use("/contact_form", require("./router/contact_form_router"));
-// app.use("/career_form", require("./router/career_form_router"));
-// app.use("/service_form", require("./router/service_form_router"));
 
 
 // Path: index.js
