@@ -1,0 +1,54 @@
+<style>
+    .bg-btn{
+        background:var( --hover-background ) !important;
+    }
+    .hover_price:hover{
+        transition: all .5s ease-in-out;
+        transform: scale(1.01)
+    }
+    .list-hover:hover{
+        transition: all .2s ease-out;
+        transform: scale(1.05);
+        cursor: pointer;
+        color: orangered;
+    }
+
+</style>
+
+<section class="block-a1 pad-tb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="common-heading ptag">
+                    <span style="color: orangered;" >Pricing</span>
+                    <h2><%= price_table_title  %></h2>
+                    <p class="mb0"><%= price_table_desc %></p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <% price_table_card.map((item,index)=>{ %>
+            <div class="col-lg-4 col-md-6 hover_price">
+                <div class="pricing-table mt60  ">
+                    <div class="inner-table">
+                        <img src="<%= item.image %>" alt="Personal" />
+                        <span class="title" style="font-size: 1.5rem;"><%= item.title %></span>
+                        <p class="title-sub"><%= item.description %></p>
+                        <h3 style="color: orangered;"><%= item.rate %></h3>
+                        <p class="duration"><%= item.type %></p>
+                        <div class="details">
+                            <ul  >
+                                <% item.list.map((list_item,index)=>{ %>
+                                <li key="index" class="list-hover"><%= list_item %></li>
+                                <% }) %>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-main <%= item.button %> lnk" data-bs-toggle="modal" data-bs-target="#menu-popup">Get Started <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span></a>
+                </div>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+</section>

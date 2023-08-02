@@ -1,0 +1,91 @@
+<style>
+    .bg-btn2{
+        background: var( --hover-background ) !important; 
+        box-shadow:  0px 1px 20px -10px #ff6228 !important;
+    }
+</style>
+
+
+<section class="service-block pad-tb bg-gradient7" id="choose-us">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="common-heading ptag">
+                    <span style="color: orangered;" >We Deliver Our Best</span>
+                    <h2><%= why_us_title %></h2>
+                    <p class="mb30" style="line-height: 2em; "><%= why_us_desc %></p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <% why_us_card.map((item,index)=>{ %>
+                <div data-tilt class="col-lg-4 col-sm-6 mt30  wow fadeInUp " data-wow-delay=".2s">
+                    <div class="s-block wide-sblock up-hor ovr-base" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                        <div class="s-card-icon"><img src="<%= item.image %>" alt="service" class="img-fluid"></div>
+                        <div class="s-block-content <%= item.margin_class %>">
+                            <h4><%= item.title %></h4>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+        <div class="-cta-btn mt70">
+            <div class="free-cta-title v-center wow zoomIn" data-wow-delay="1.9s">
+                <p>Let's Start a <span class="text-second text-bold text-radius text-light text-animation bg-b" >New Course</span> Together</p>
+                <a href="#" class="btn-main bg-btn2 lnk" data-bs-toggle="modal" data-bs-target="#modalform">Apply Now<i class="fas fa-chevron-right fa-icon"></i><span
+                        class="circle"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="statistics-wrap bg-gradient5">
+    <div class="container">
+        <div class="row small t-ctr mt0">
+            <div  class="col-lg-3 col-sm-6">
+                <div  class="statistics">
+                    <div data-tilt data-tilt-max="50" data-tilt-speed="1000" class="statistics-img hover-background">
+                        <img src="images/icons/deal.svg" alt="happy" class="img-fluid">
+                    </div>
+                    <div class="statnumb">
+                        <span class="counter">450</span>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="statistics">
+                    <div data-tilt data-tilt-max="50" data-tilt-speed="1000" class="statistics-img hover-background">
+                        <img src="images/icons/computers.svg" alt="project" class="img-fluid">
+                    </div>
+                    <div class="statnumb counter-number">
+                        <span class="counter">48</span><span>k</span>
+                        <p>Projects Done</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="statistics">
+                    <div data-tilt data-tilt-max="50" data-tilt-speed="1000" class="statistics-img hover-background">
+                        <img src="images/icons/worker.svg" alt="work" class="img-fluid">
+                    </div>
+                    <div class="statnumb">
+                        <span class="counter">95</span><span>k</span>
+                        <p>Hours Worked</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="statistics mb0">
+                    <div data-tilt data-tilt-max="50" data-tilt-speed="1000" class="statistics-img hover-background">
+                        <img src="images/icons/customer-service.svg" alt="support" class="img-fluid">
+                    </div>
+                    <div class="statnumb">
+                        <span class="counter">24</span><span>/</span><span class="counter">7</span>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

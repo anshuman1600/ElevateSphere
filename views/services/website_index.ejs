@@ -1,0 +1,30 @@
+
+
+<%- include('../common/header.ejs',{meta_1,meta_2}) %>
+<%- include('../common/main_header.ejs') %>
+<% if( type==='Marketing' ){ %>
+<%- include('marketing_hero.ejs',{title,title_desc,hero_image}) %>
+<% } else if( type==='Development' ) { %>
+<%- include('website_hero.ejs',{title:title,hero_image}) %>
+<% } %>
+<%- include('website_overview_technology.ejs',{ description_title,description_desc,description_image }) %>
+<%- include('marketing_advantage.ejs',{advantage_title,advantage_desc,advantage_tagline,advantage_card}) %>
+<%- include('website_number.ejs') %>
+<%- include('website_pricetable.ejs',{price_table_title,price_table_desc,price_table_card}) %>
+<% if(page === 'Digital Marketing') { %>
+    <%- include('marketing_services.ejs') %>
+    <% } %>
+<%- include('website_worktogether.ejs') %>
+<% if(page==='App Development'){ %>
+<%- include('app_services.ejs') %>
+<% } %>
+<% if(page === 'Bulk SMS Marketing') { %>
+    <%- include('marketing_email.ejs') %>
+    <% } %>
+<%- include('website_process.ejs',{ process_title, process_desc, process_card,type }) %>
+<%- include('website_choiceus.ejs',{whyus:why_us,whyusdesc:why_us_desc }) %>
+<% if(page === 'Digital Marketing') { %>
+    <%- include('marketing_industry_workfor.ejs') %>
+    <% } %>
+<%- include('website_ourproject.ejs',{ourprojectdesc:our_project_desc ,our_project_card  }) %>
+<%- include('../common/footer.ejs') %>

@@ -1,0 +1,676 @@
+.content{
+    display: flex;
+    justify-content: space-between; 
+    padding: 5%;
+    background-color:#111111;
+
+}
+.para{
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 4%;
+    color: #f9f9f9;
+}
+.para>p{
+font-size: 42px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 800;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding-top: 3%;
+}
+.but>button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #f9f9f9;
+    font-weight: 700;
+    padding: 5% 5%;
+    border-radius: 5rem;
+    background-image: linear-gradient(90deg, #f52b01f7 0%, #ff6b00 43%, rgb(255 172 0) 87%);
+    transition: all 0.5s ease-in-out ;
+}
+.but>button:hover{
+    background-image: linear-gradient(-90deg, #f52b01f7 0%, #ff6b00 43%, rgb(255 172 0) 87%);
+    color: white;
+}
+/* .image{
+   
+} */
+.image>img{
+    height: 500px;
+
+}
+/* ..........media query......... */
+@media screen and (max-width:350px){
+.content{
+    display: block;
+}
+.para>p{
+    font-size: 18px;
+}
+.but>button{
+    font-size: 14px;
+    font-weight: 500;
+}
+.image>img{
+    height: 250px;
+}
+}
+@media screen and (min-width:351px) and (max-width:450px){
+    .content{
+        display: block;
+    }
+    .para>p{
+        font-size: 22px;
+    }
+    .but>button{
+        width: 95%;
+    }
+    .image>img{
+       height:  330px;
+    }
+   
+}
+@media screen and (min-width:451px) and (max-width:560px){
+    .content{
+        display: block;
+    }
+    .image>img{
+        height: 390px;
+    }
+}
+@media screen and (min-width:561px) and (max-width:800px){
+    .content{
+        display: block;
+    }
+    .para>p{
+        font-size: 31px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:850px){
+    .image>img{
+        height: 450px;
+    }
+    .para>p{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:851px) and (max-width:950px){
+    .para>p{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:951px) and (max-width:1050px){
+    .para>p{
+        font-size: 34px;
+    }
+}
+/* .............heading........ */
+.influnecer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    background: #111111;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+
+}
+.head1{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fffffff7;
+}
+.heading>button{
+    border: 2px solid #ef3405f7 ;
+    color: #ebe9e9f7;
+    font-family: 'poppins';
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 5rem;
+    background-image: linear-gradient(90deg, #f52b01f7 0%, #ff6b00 43%, rgb(255 172 0) 87%);
+    transition: all 0.5s ease-in-out ;
+}
+
+.heading>button:hover{
+    background-image: linear-gradient(-90deg, #f52b01f7 0%, #ff6b00 43%, rgb(255 172 0) 87%);
+    color: white;
+}
+
+.content2{
+    text-align: justify;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-left: 1px solid black;
+    line-height: 2em;
+    color: wheat    ;
+}
+.ml1 {
+  font-weight: 900;
+  font-size: 1.6em;
+  color: #ff4500;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #ac4c2de8;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+/* ...........media query........ */
+@media screen and (max-width:350px){
+    .heading{
+        font-size: 23px;
+        padding-bottom: 5%;
+    }
+    .content2{
+        width: 100%;
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    .influnecer{
+        display: block;
+    }
+}
+@media screen and (min-width:351px) and (max-width:450px){
+    .heading{
+        font-size: 18px;
+    }
+    .content2{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .influnecer{
+        display: block;
+    }
+}
+@media screen and (min-width:451px) and (max-width:650px){
+    .heading{
+        font-size: 26px;
+
+    }
+    .influnecer{
+        display: block;
+    }
+    .content2{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:651px) and (max-width:800px){
+    .influnecer{
+        display: block;
+    }
+    .content2{
+        width: 100%;
+    }
+}
+@media screen and (min-width:801px) and (max-width:850px){
+    .heading{
+        font-size: 18px;
+    }
+    .content2{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:851px) and (max-width:950px){
+    .content2{
+        font-size: 0.9rem;
+    }
+    .heading{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width:951px) and (max-width:1050px){
+    .content2{
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:1051px) and (max-width:1250px){
+    .heading{
+        font-size: 24px;
+    }
+}
+
+/* ............cards start......... */
+.cards{
+    background-color: #111111;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cards>h1{
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+.cards>p{
+    text-align: center;
+    font-size: 1.3em;
+}
+.subcard{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    border-bottom: 0.02px solid lightgray;
+}
+.subcard>button{
+    background-color: #e7e7e7;
+    width: 50%;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+@media screen and (max-width:450px){
+    .cards>p{
+        font-size: 1em;
+    }
+}
+
+
+/* ................cards....... */
+.parent{
+    background-color: #111111;
+}
+.subcard2{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #111111;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.imgcaption{
+width: 0%;
+  font-size: 14px;
+  font-weight: 500;
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  animation:myAnim 0.8s ease-in-out  1 normal forwards
+ 
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.4);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.card:hover{
+    .cardimg{
+        opacity: 0.2;
+    }
+    .imgcaption{
+        display: block;
+        position: absolute;
+        top: 0%;
+        background-color: #ff4500;
+        box-shadow: inset 0 0 1000px 0 black;
+        width: 100%;
+        left: 0%;
+        height: 100%;
+        color: white;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+        border-radius: 8px;
+    }
+  
+}
+.sub{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3%;
+
+}
+.cardimg{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 22%;
+}
+.card1>img{
+    object-fit: contain;
+    width: 30%;
+}
+/* .................media query......... */
+@media screen and (max-width:550px){
+    .subcard>button{
+    font-size: 20px;
+}
+.sub{
+    display: block;
+}
+.card{
+    width: 100%;
+    margin-bottom: 2%;
+}
+}
+@media screen and (min-width:451px) and (max-width:800px){
+    .card{
+        width: 41%;
+        margin-bottom: 2%;
+    }
+    .sub{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:801px) and (max-width:850px){
+    .card{
+        width: 40%;
+        margin-bottom: 2%;
+    }
+    .sub{
+        flex-wrap: wrap;
+    }
+}
+/* .............card end............ */
+/* .....................social media...................... */
+.socialmedia{
+    padding-top: 3%;
+    text-align: center;
+}
+.socialmedia>span{
+    font-size: 35px;
+    font-weight: 600;
+}
+.socialmedia>h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Impact;
+}
+.carousel-item>img{
+    margin-right: 3%;
+}
+/* .main{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding-left: 40%;
+
+}
+.child>ul{
+    list-style-type: none;
+}
+.child{
+     text-align: start;
+     font-weight: 800;
+} */
+
+
+/* ..........work-process........ */
+.work-process>h2{
+    text-align: center;
+    font-weight: 500;
+}
+.work-process>h1{
+    text-align: center;
+    font-weight: 700;
+}
+.work-process>p{
+    text-align: center;
+    font-size: 19px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 4%;
+}
+@media screen and (max-width:800px){
+    .work-process>p{
+        font-size: 14px;
+    }
+}
+
+/* .............work-image....... */
+.work-image{
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.sub-work{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+.icon{
+    background-color: #ff4500;
+    border-radius: 11px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+}
+.icon>img{
+    height: 50%;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 3%;
+}
+@media screen and (max-width:450px){
+    .paragraph{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:451px) and (max-width:650px){
+    .paragraph{
+        font-size: 15px;
+    }
+}
+/* ...............detail........ */
+.detail{
+    background-color: #ccc;
+    text-align: center;
+    padding-top: 4%;
+    padding-right: 18%;
+    padding-left: 18%;
+    padding-bottom: 4%;
+}
+.detail>h2{
+    font-size: 40px;
+}
+.detail>h1{
+    font-weight: 800;
+}
+.detail>p{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.summary{
+    /* display: flex; */
+    width:100%;
+    border: 2px solid white;
+    margin-bottom: 2%;
+    background-color: #191919;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: start;
+    color: azure;
+    border-radius: 12px;
+}
+.summary>details>p{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/* ..........slider............ */
+.slider{
+    text-align: center;
+    padding-top: 3%;
+}
+.slider>h1{
+    font-size: 34px;
+    font-weight: 800;
+}
+.new{
+    padding-top: 2%;
+    padding-left: 45%;
+    padding-bottom: 3%;
+}
+/* .carousel-item {
+  padding-left: 35%;
+} */
+/* ...........social.......... */
+.social{
+    background-color: #ccc;
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.social>h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+@media screen and (max-width:450px){
+    .social>h1{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:451px) and (max-width:650px){
+    .social>h1{
+        font-size: 30px;
+    }
+}
+.social>h1>u{
+    color: #ff4500;
+
+}
+.parts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+/* .sub-social>span>img{
+    background-color: #191919;
+} */
+
+/* ..............support......... */
+.sub-social{
+    width: 18%;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    padding-bottom: 3%;
+}
+.sub-social:hover{
+    box-shadow: inset 0 0 1000px 0 black;
+    color:white;
+    transition: all 0.5s ease-in ;
+}
+
+.mail>img{
+    width: 30px;
+    padding-top: 2%;
+}
+.imgn{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.imgn>img{
+    padding-right: 3%;
+    width: 40px;
+}
+.imgn>span{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 2%;
+}
+.mail>h1{
+    font-size: 14px;
+}
+.video{
+    padding-top: 4%;
+}
+.video>img{
+    width: 30px;
+}
+.video>span{
+    padding-left: 2%;
+}
+.num{
+    padding-top: 5%;
+}
+.emailp{
+    padding-top: 4%;
+}
+.emailp>span{
+    padding-bottom: 3%;
+}
+.emailp>h1{
+    font-size: 16px;
+    
+}
+/* ......media query........ */
+@media screen and (max-width:450px){
+.sub-social{
+    margin-bottom: 4%;
+    width: 75%;
+    margin-left: 13%;
+}
+.parts{
+    display: block;
+}
+}
+@media screen and (min-width:451px) and (max-width:1000px){
+    .sub-social{
+        margin-bottom: 4%;
+        width:45%;
+    }
+}
+
+
+
+

@@ -1,0 +1,14 @@
+/* .hover-background{
+    background: linear-gradient(90deg, rgb(245 43 1 / 97%) 0%, rgb(255 107 0) 43%, rgb(255 172 0) 87%) !important;
+} */
+
+:root{
+    --hover-background: linear-gradient(90deg, #f52b01f7 0%, #ff6b00 43%, rgb(255 172 0) 87%) !important;
+    --text-color:#ff4500;
+    --text-shadow_border:-1px 1px 0 #ff4500,
+    1px 1px 0 #ff4500,
+   1px -1px 0 #ff4500,
+  -1px -1px 0 #ff4500;
+  color: #288ced;
+}
+

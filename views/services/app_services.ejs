@@ -1,0 +1,134 @@
+<style>
+    .bg-btn2 {
+        background: var(--hover-background) !important;
+    }
+
+    .s-card-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-resize {
+        width: 100%;
+        padding: 0 50px !important;
+    }
+
+</style>
+
+<section class="service-block bg-gradient6 pad-tb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="common-heading ptag">
+                    <span style="color: orangered;" >Service</span>
+                    <h2>Our Services</h2>
+                    <p class="mb30">We think big and have hands in all leading technology platforms to provide you wide
+                        array of services.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row upset link-hover">
+            <div data-tilt data-tilt-max="2" class="col-lg-6 col-sm-6 mt30  wow fadeInUp" data-wow-delay=".2s"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; transition: -webkit-line-clamp 2s ease;
+                -webkit-transition: -webkit-line-clamp 2s ease"  >
+                <div class="s-block wide-sblock s-card-box">
+                    <div class="s-card-icon-large" style="margin: 0 auto; margin-bottom: 10px;"><img
+                            src="images/service/mob-service-item2.png" alt="service" class="img-fluid"></div>
+                    <div class="s-block-content-large card-resize">
+                        <h4 style="margin-top: 5px ;">iOS App Development Services</h4>
+                        <p class="box-content1" style=" display: -webkit-box;
+                        -webkit-line-clamp: 5;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        ;">Develop next generation iOS apps that are
+                            quality tested to
+                            perfection With iOS application
+                            development services moving forward in the future.As a full-stack iPhone app development
+                            business, we have released hundreds of native iOS applications that have seen exponential
+                            growth and are top sellers on the App Store. We have a talented group of seasoned iPhone
+                            mobile app developers, and Objective-C and Swift make up our main tech stack when creating
+                            iOS solutions.
+                            We are a dedicated team of iPhone app developers who work for an iOS mobile app development
+                            company. We provide custom iPhone application development services keeping in mind the
+                            unique design and iOS application development company guidelines pertaining to each
+                            individual platform including iPad, iPhone, Apple TV and Apple Watch. Our iOS app developers
+                            have built apps for a wide variety of use cases, including real-time analytics, route
+                            matching, geo-tagging, streaming video and more across multiple industries.</p>
+                    </div>
+                    <button id="button_show_1" style="width: min-content; background-color: #111111 ; border-radius: 20px ; padding: 5px; border: none; color: aliceblue; margin: 10px auto; display: block;" >See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div data-tilt data-tilt-max="2" class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s"
+                style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <div class="s-block wide-sblock s-card-box">
+                    <div class="s-card-icon-large" style="margin: 0 auto; margin-bottom: 10px">
+                        <img src="images/service/mob-service-item1.png" alt="service" class="img-fluid">
+                    </div>
+                    <div class="s-block-content-large card-resize">
+                        <h4 style="margin-top: 5px;">Android App Development Services</h4>
+                        <p class="box-content2" style=" display: -webkit-box;
+                -webkit-line-clamp: 5;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                transition: -webkit-line-clamp 0.3s ease-in-out;
+                -webkit-transition: -webkit-line-clamp 0.3s ease-in-out;">
+                            The market for Android phones is booming, and the community of Android apps, which accounts
+                            for about 80% of demand, is doing the same. With everyone using smart devices to access
+                            virtual worlds nowadays, it would be fair to argue that applications are the most attractive
+                            platform for consumers. As the top Android application development company in Lucknow,
+                            Moundweb was founded with the deliberate intention of igniting the technology revolution
+                            with its original concepts. We are well-positioned to meet the diverse needs of our
+                            customers consistently, quickly, and effectively because we comprehend and actively seek the
+                            Android world.
+                        </p>
+                    </div>
+                    <button id="button_show_2" style="width: min-content; background-color: #111111 ; border-radius: 20px ; padding: 5px; border: none; color: aliceblue; margin: 10px auto; display: block; " >See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
+                </div>
+            </div>
+
+        </div>
+        <div class="-cta-btn mt70">
+            <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1.1s"
+                style="visibility: visible; animation-delay: 1.1s; animation-name: zoomInDown;">
+                <p>Hire a <span>Dedicated Developer</span></p>
+                <a href="#" class="btn-main bg-btn2 lnk" data-bs-toggle="modal" data-bs-target="#menu-popup">Hire Now<i class="fas fa-chevron-right fa-icon"></i><span
+                        class="circle"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Function to handle the click event for the first service card
+function toggleBoxContent1() {
+  var boxContent1 = $('.box-content1');
+  var buttom_1 = $('#button_show_1');
+  if (boxContent1.css('-webkit-line-clamp') === '5') {
+    boxContent1.css('-webkit-line-clamp', 'unset');
+    buttom_1.html('See Less <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>');
+  } else {
+    boxContent1.css('-webkit-line-clamp', '5');
+    buttom_1.html('See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>');
+  }
+}
+
+// Function to handle the click event for the second service card
+function toggleBoxContent2() {
+  var boxContent2 = $('.box-content2');
+    var buttom_2 = $('#button_show_2');
+
+  if (boxContent2.css('-webkit-line-clamp') === '5') {
+    boxContent2.css('-webkit-line-clamp', 'unset');
+    buttom_2.html('See Less <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>');
+  } else {
+    boxContent2.css('-webkit-line-clamp', '5');
+    buttom_2.html('See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>');
+  }
+}
+
+// Attach the click event handlers to the respective service cards
+$('.col-lg-6.col-sm-6.mt30.wow.fadeInUp[data-wow-delay=".2s"]').click(toggleBoxContent1);
+$('.col-lg-6.col-sm-6.mt30.wow.fadeInUp[data-wow-delay=".4s"]').click(toggleBoxContent2);
+
+</script>
