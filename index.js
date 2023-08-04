@@ -172,7 +172,7 @@ const Development = [
     },
     page: "Website Development",
     title: "Best Website Development Company in Lucknow",
-    hero_image: "images/common/Web/giphy.gif",
+    hero_image: "images/banner/banner_web.png",
     description_title: "Best Website Development Company in Lucknow",
     description_desc:
       " Searching For the  Best Website Development Service in Lucknow  To Create a Modern Website For Your Business or Startup? Take Quick Action And Hire Moundweb IT & Web Solutions - A Leading Website Development Company in Lucknow For The Best Website Development Services At Affordable Prices.",
@@ -399,7 +399,7 @@ const Development = [
     },
     page: "App Development",
     title: "Top Leading Mobile App Development Company",
-    hero_image: "images/common/App/giphy-ap.gif",
+    hero_image: "images/banner/banner_app.png",
     description_title: "Best Mobile App Development Company in Lucknow",
     description_desc:
       "If you Searching for the best Mobile App Development Company in Lucknow you can visit Moundweb IT & Web Solutions. The importance of mobile applications is quite evident in today's time. Everyone who uses a smartphone or tablet spends a major part of their daily life fiddling with these gadgets. In fact, the popularity of smartphones is finding new markets with increasing recognition in developing and less-developed countries. For many, mobile applications are a necessity that make important daily tasks extremely convenient for users.",
@@ -617,7 +617,7 @@ const Development = [
     },
     page: "Blockchain Development",
     title: "Top Leading Blockchain  Development Company",
-    hero_image: "images/common/Blockchain/giphy.gif",
+    hero_image: "images/banner/blockchain_banner.png",
     description_title: "Best Blockchain Development Company in Lucknow",
     description_desc:
       "Looking For Best Blockchain Development Company in Lucknow? Moundweb is the best Blockchain Development Company in Lucknow. Moundweb provides best Blockchain development services help to create decentralized apps that provide increased traceability and security of data and transactions. Get exclusive solutions using our blockchain app development services. Equip your business with a secure, decentralized and immutable blockchain solution. We help startup's, businesses and enterprises develop more efficient and automated versions of their business with our broad spectrum of blockchain development services. As a leading blockchain development company in Lucknow, we begin by thoroughly examining how blockchain development technology can help your organization and enhance organizational trust and transparency.",
@@ -844,7 +844,7 @@ const Development = [
     },
     page: "Software Development",
     title: "Top Software Development Company in Lucknow",
-    hero_image: "images/common/Software/giphy.ap.gif",
+    hero_image: "images/banner/banner_softd.png",
     description_title: "Best Software Development Company in Lucknow",
     description_desc:
       "Moundweb is the best Software Development Company in Lucknow. We Provide Best Software Services in Lucknow. We have the best team for software development in Lucknow. We provide best Software development services across Globally.At MoundWeb, we've always been proud to believe in your company and share your vision. At Moundweb, we believe that there is tremendous potential in your business venture, regardless of the scale of your operations or other factors that determine the success of your Lucknow based business. Our business aim is to make your business successful. We strive to create software that can grow your business by combining our latest development and design techniques with your business principles. Moundweb is one of  the best software development Company in Lucknow.",
@@ -1072,7 +1072,7 @@ const Development = [
     },
     page: "E-commerce Development",
     title: "E-Commerce Website Development Company in Lucknow",
-    hero_image: "images/common/E-commerce/hero-image.gif",
+    hero_image: "images/banner/banner_ecom.png",
     description_title:
       "Best E-commerece Website Development Company in Lucknow",
     description_desc:
