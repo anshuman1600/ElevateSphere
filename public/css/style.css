@@ -555,8 +555,8 @@ div.custom-nav > ul > li.sbmenu > a:after {
   box-shadow: 0 10px 15px 0 rgba(175, 0, 87, 0.2);
 }
 .btshad-b2 {
-  -webkit-box-shadow: 0 10px 15px 0 rgba(56, 0, 189, 0.2);
-  box-shadow: 0 10px 15px 0 rgba(56, 0, 189, 0.2);
+  -webkit-box-shadow: 0 10px 15px 0 rgba(245, 108, 4, 0.2);
+  box-shadow: 0 10px 15px 0 rgba(240, 88, 0, 0.2);
 }
 .nx-dropdown {
   position: absolute;
@@ -946,14 +946,14 @@ a.play-video::after {
   line-height: 56px;
   text-align: center;
   outline: 0;
-  background-color: #ff1f8e;
+  background-color: #ff5b1f;
   border: none;
   -webkit-border-radius: 100px;
   border-radius: 100px;
   display: inline-block;
   position: relative;
-  -webkit-box-shadow: 0 10px 15px 0 rgba(233, 30, 99, 0.15);
-  box-shadow: 0 10px 15px 0 rgba(233, 30, 99, 0.15);
+  -webkit-box-shadow: 0 10px 15px 0 rgba(244, 99, 10, 0.15);
+  box-shadow: 0 10px 15px 0 rgba(236, 97, 10, 0.15);
 }
 .s-block,
 .wide-block {

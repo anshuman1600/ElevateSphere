@@ -22,6 +22,7 @@ app.use(express.json());
 
 app.use("/client_form", require("./router/Client_form_router"));
 app.use("/training_form", require("./router/training_form_router"));
+app.use("/contact_us", require("./router/contact_us_router"));
 
 
 // Path: index.js
@@ -379,6 +380,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -597,6 +608,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -617,7 +638,7 @@ const Development = [
     },
     page: "Blockchain Development",
     title: "Top Leading Blockchain  Development Company",
-    hero_image: "images/banner/blockchain_banner.png",
+    hero_image: "images/banner/2.jpg",
     description_title: "Best Blockchain Development Company in Lucknow",
     description_desc:
       "Looking For Best Blockchain Development Company in Lucknow? Moundweb is the best Blockchain Development Company in Lucknow. Moundweb provides best Blockchain development services help to create decentralized apps that provide increased traceability and security of data and transactions. Get exclusive solutions using our blockchain app development services. Equip your business with a secure, decentralized and immutable blockchain solution. We help startup's, businesses and enterprises develop more efficient and automated versions of their business with our broad spectrum of blockchain development services. As a leading blockchain development company in Lucknow, we begin by thoroughly examining how blockchain development technology can help your organization and enhance organizational trust and transparency.",
@@ -813,6 +834,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",
@@ -1052,6 +1083,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -1072,7 +1113,7 @@ const Development = [
     },
     page: "E-commerce Development",
     title: "E-Commerce Website Development Company in Lucknow",
-    hero_image: "images/banner/banner_ecom.png",
+    hero_image: "images/banner/8.jpg",
     description_title:
       "Best E-commerece Website Development Company in Lucknow",
     description_desc:
@@ -1282,6 +1323,18 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
+      
 
     ],
   },
@@ -1489,6 +1542,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",
@@ -1757,6 +1820,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",
@@ -2051,6 +2124,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -2333,6 +2416,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -2547,6 +2640,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },
@@ -2693,6 +2796,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",
@@ -2879,6 +2992,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
+      },
 
     ],
   },// 13. Content Marketing
@@ -3033,6 +3156,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",
@@ -3201,6 +3334,16 @@ const Development = [
         title: "Icon Pack",
         description: "Android & IOS,Design",
         image: "images/portfolio/image-4.jpg",
+      },
+      {
+        title: "Swart Watch",
+        description: "UI/UX Design",
+        image: "images/portfolio/image-5.jpg",
+      },
+      {
+        title: "Broucher Design",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-6.jpg",
       },
       {
         title: "Swart Watch",

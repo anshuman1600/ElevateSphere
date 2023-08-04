@@ -60,6 +60,9 @@
         .hover_li>a:hover{
             color: #ff7410 !important;
         }
+        .form-block button {
+        width: 100% !important;   
+}
     </style>
     <div class="onloadpage" id="page_loader">
         <div class="pre-content">
@@ -73,53 +76,44 @@
 
     <div class="popup-modals">
         <div class="modal" id="modalform" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <div class="common-heading">
-                            <h4 class="mt0 mb0">Training Registration Form</h4>
-                        </div>
-                        <button type="button" class="closes" data-bs-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-block fdgn2 mt10 mb10">
-                            <form action="#" method="post" name="feedback-form">
-                                <div class="fieldsets row">
-                                    <div class="col-md-6"><input type="text" placeholder="Full Name" name="name"
-                                            required></div>
-                                    <div class="col-md-6"><input type="email" placeholder="Email Address" name="email"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="fieldsets row">
-                                    <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone"
-                                            required></div>
-                                    <div class="col-md-6"><input type="text" placeholder="Hightest Qualification"
-                                            name="subject" required></div>
-                                    <div class="col-md-12"><textarea placeholder="About Yourself" name="message"
-                                            required></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input class="form-control form-control-lg" id="formFileLg2" type="file"
-                                            required accept=".pdf,.doc,.docx">
-                                        <p><small>Please upload CV File Only pdf, docx and doc files.</small>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="fieldsets mt20 pb20">
-                                    <button type="submit" name="submit" class="lnk btn-main bg-b">Submit <i
-                                            class="fas fa-chevron-right fa-icon"></i><span
-                                            class="circle"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="common-heading">
+                  <h4 class="mt0 mb0">Training Registration Form</h4>
                 </div>
+                <button type="button" class="closes" data-bs-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="form-block fdgn2 mt10 mb10">
+                  <form action="http://localhost:3000/training_form" method="post" name="feedback-form" id="trainingForm">
+                    <div class="fieldsets row">
+                      <div class="col-md-6"><input type="text" placeholder="Full Name" name="name" required></div>
+                      <div class="col-md-6"><input type="email" placeholder="Email Address" name="email" required></div>
+                    </div>
+                    <div class="fieldsets row">
+                      <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone" required></div>
+                      <div class="col-md-6"><input type="text" placeholder="Highest Qualification" name="qualification" required></div>
+                      <div class="col-md-12"><textarea placeholder="About Yourself" name="about" required></textarea></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <input class="form-control form-control-lg" id="formFileLg2" type="file" name="cv" required accept=".pdf,.doc,.docx">
+                        <p><small>Please upload CV File Only pdf, docx, and doc files.</small></p>
+                      </div>
+                    </div>
+                    <div class="fieldsets mt20 pb20">
+                      <button type="submit" name="submit" class="lnk btn-main bg-b">Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+
+      
 
     <div class="popup-modal1">
         <div class="modal" id="menu-popup">
@@ -134,7 +128,7 @@
 
                     <div class="modal-body">
                         <div class="form-block fdgn2 mt10 mb10">
-                            <form action="http://localhost:3000/training_form" method="post" name="feedback-form">
+                            <form action="http://localhost:3000/client_form" method="post" name="feedback-form" id="clientForm">
                                 <div class="fieldsets row">
                                     <div class="col-md-12"><input type="text" placeholder="Full Name" name="name"></div>
                                     <div class="col-md-12"><input type="email" placeholder="Email Address" name="email">
@@ -158,6 +152,8 @@
             </div>
         </div>
     </div>
+
+
 
     <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
         <div class="container-fluid m-pad">

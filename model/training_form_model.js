@@ -6,7 +6,6 @@ const trainingFormSchema = new Schema({
   phoneNo: String,
   qualification: String,
   createdAt: { type: Date, default: Date.now },
-  address: String,
   about: String,
   file: String,
 });

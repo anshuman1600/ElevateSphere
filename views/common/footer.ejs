@@ -175,6 +175,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 <script>
 	var owl = $('.niwax-client-slider');
@@ -212,7 +214,7 @@
 
 
 		
-		const form = document.getElementById('trainingForm');
+		const form = document.getElementById('clientForm');
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault(); // Prevent default form submission behavior
@@ -220,7 +222,7 @@ form.addEventListener('submit', async (event) => {
   const formData = new FormData(form);
 
   try {
-	const response = await fetch('http://localhost:3000/training_form', {
+	const response = await fetch('http://localhost:3000/client_form', {
 	  method: 'POST',
 	  headers: {
 		'Content-Type': 'application/json'
@@ -236,15 +238,83 @@ form.addEventListener('submit', async (event) => {
 	console.log('Form submitted successfully:', data);
 
 	// Show success popup message here (you can use a library like Bootstrap modal, SweetAlert, etc.)
-	alert('Form submitted successfully!');
+	Toastify({
+          text: 'Form submitted successfully!',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
 
 	// Reset the form after successful submission
 	form.reset();
   } catch (error) {
-	console.error('Form submission error:', error);
-	// Handle error, show error message to the user, etc.
+	Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
   }
 });
+
+document.getElementById('trainingForm').addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const form = event.target;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch('http://localhost:3000/training_form', {
+      method: 'POST',
+      body: formData,
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      // Handle the successful response data if needed
+      console.log(data);
+      // Show the success modal
+	  Toastify({
+          text: 'Form submitted successfully!',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+    } else {
+       // Handle the error response if needed
+	   console.error('Error submitting the form.');
+        // Show the error toast notification
+        Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+    }
+  } catch (error) {
+    console.error('Error occurred during form submission:', error);
+    // Show the error modal
+	Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+  }
+});
+
+
+
 </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
