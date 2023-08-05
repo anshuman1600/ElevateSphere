@@ -22,7 +22,8 @@ app.use(express.json());
 
 app.use("/client_form", require("./router/Client_form_router"));
 app.use("/training_form", require("./router/training_form_router"));
-app.use("/contact_us", require("./router/contact_us_router"));
+app.use("/contact_us_training", require("./router/contact_us_training_router"));
+app.use("/contact_us_client", require("./router/contact_us_client_router"));
 
 
 // Path: index.js
@@ -381,14 +382,14 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
 
     ],
@@ -609,14 +610,14 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
 
     ],
@@ -846,14 +847,14 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
 
     ],
@@ -1084,14 +1085,14 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
 
     ],
@@ -1323,19 +1324,16 @@ const Development = [
         description: "Graphic, Print",
         image: "images/portfolio/image-6.jpg",
       },
-      
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
-      },
-      {
-        title: "Broucher Design",
+        title: "Product Watch",
         description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        image: "images/portfolio/image-7.jpg",
       },
-      
-
+      {
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
+      },
     ],
   },
   //6. Digital Marketing
@@ -1554,16 +1552,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
   //7. Seo Marketing
@@ -1832,16 +1829,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
   //8. Social Media Marketing
@@ -2125,16 +2121,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
   //9. Social Media Management
@@ -2417,16 +2412,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8jpg",
       },
-
     ],
   },
   //10. PPC Advertising
@@ -2641,16 +2635,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
   //11. Bulk SMS
@@ -2808,16 +2801,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
   // 12. Email Marketing
@@ -2855,9 +2847,6 @@ const Development = [
       "Measurable results with detailed analytics to track campaign performance.",
       "Builds relationships and improves customer retention through consistent communication.",
       " Drives conversions and increases sales.",
-      "Enhances brand awareness and recognition.",
-      "Increases website traffic and improves SEO.",
-      "Facilitates customer feedback and insights.",
     ],
     tagline: "Email Marketing",
     price_table_title: "Email Marketing Services Packages",
@@ -2993,16 +2982,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },// 13. Content Marketing
   {
@@ -3168,16 +3156,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },// 14. Video Marketing
   {
@@ -3346,16 +3333,15 @@ const Development = [
         image: "images/portfolio/image-6.jpg",
       },
       {
-        title: "Swart Watch",
-        description: "UI/UX Design",
-        image: "images/portfolio/image-5.jpg",
+        title: "Product Watch",
+        description: "Graphic, Print",
+        image: "images/portfolio/image-7.jpg",
       },
       {
-        title: "Broucher Design",
-        description: "Graphic, Print",
-        image: "images/portfolio/image-6.jpg",
+        title: "App Design",  
+        description: "Android & IOS,Design",
+        image: "images/portfolio/image-8.jpg",
       },
-
     ],
   },
 ];
@@ -3365,7 +3351,7 @@ const Training = [
   {
     tagline: "Web Development",
     type:"Web Development Training",
-    pg_title : "Top Web Development Course in Lucknow - Moundweb IT & Web Solutions",
+    pg_title : "Best Web Development Course in Lucknow - Moundweb IT & Web Solutions",
     meta_1 : {
       name: "description",
       content:  "Moundweb is the best Web Development Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
@@ -3375,7 +3361,7 @@ const Training = [
       content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
     page : "Web Development Training",
-    hero_title : "Best Web Development Training Company in Lucknow ",
+    hero_title : "Best Web Development Course in Lucknow ",
     description_title : "Advance Web Development Course in Lucknow",
     description_desc : " Are you looking for the best web development training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in web development. From HTML and CSS to JavaScript, PHP, and MySQL, we cover all the essential skills required to become a successful web developer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of web development and build a strong foundation for your career. Experience the power of web development with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of  Web Development Course ",
@@ -3461,7 +3447,7 @@ const Training = [
       content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
     page : "Digital Marketing Training",
-    hero_title : "Top Digital Marketing Training Company in Lucknow ",
+    hero_title : "Top Digital Marketing Course in Lucknow ",
     description_title : "Advance Digital Marketing Course in Lucknow",
     description_desc : " Are you looking for the best digital marketing training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in digital marketing. From SEO and PPC to social media marketing and content marketing, we cover all the essential skills required to become a successful digital marketer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of digital marketing and build a strong foundation for your career. Experience the power of digital marketing with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of Digital Marketing Training Course ",
@@ -3546,7 +3532,7 @@ const Training = [
       content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
     page : "Graphic Designing Training",
-    hero_title : "Top Graphic Designing Training Company in Lucknow ",
+    hero_title : "Top Graphic Designing Course in Lucknow ",
     description_title : "Advance Graphic Designing Course in Lucknow",
     description_desc : "Are you looking for the best graphic designing training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in graphic designing. From Adobe Photoshop and Illustrator to CorelDraw, we cover all the essential skills required to become a successful graphic designer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of graphic designing and build a strong foundation for your career. Experience the power of graphic designing with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of Graphic Designing Training Course ",

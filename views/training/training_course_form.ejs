@@ -7,7 +7,7 @@
 }
 </style>
 
-<section class="enquire-form pad-tb" id="contact">
+<section class="enquire-form pad-tb" id="contact" >
     <div class="container">
         <div class="row light-bgs">
             <div class="col-lg-6">
@@ -15,15 +15,16 @@
                     <h2 class="mt0" style="text-align: center;">For Immediate Joining <br> <span class="text-radius text-light text-animation bg-b" > Contact Now </span></h2>
                 </div>
                 <div class="form-block">
-                    <form action="#" method="post" name="feedback-form">
+                    <form action="http://localhost:3000/contact_us_training" method="post" name="feedback-form" id="contactUsTraining">
                         <div class="fieldsets row">
                             <div class="col-md-6"><input type="text" placeholder="Full Name" name="name" required></div>
                             <div class="col-md-6"><input type="email" placeholder="Email Address" name="email" required></div>
                         </div>
                         <div class="fieldsets row">
                             <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone" required></div>
-                            <div class="col-md-6"><input type="text" placeholder="Highest Education" name="subject" required></div>
+                            <div class="col-md-6"><input type="text" placeholder="Highest Education" name="qualification" required></div>
                         </div>
+                        <div class="fieldsets"><input type="text" placeholder="Address" name="address" required></input></div>
                         <div class="fieldsets"><textarea placeholder="About Yourself" name="message" required></textarea></div>
                         <div class="fieldsets mt20" style="display: flex;justify-items: center;" > <button type="submit" name="submit"
                                 class="lnk btn-main bg-b">Submit <i class="fas fa-chevron-right fa-icon"></i><span

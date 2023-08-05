@@ -5,9 +5,11 @@ const contactUsSchema = new Schema({
     email: String,
     phoneNo: String,
     createdAt: { type: Date, default: Date.now },
+    qualification: String,
+    address: String,
     message: String,
 });
 
-const ContactUsModel = model("contactUs", contactUsSchema);
+const ContactUsModel = model("contactUsTraining", contactUsSchema);
 
 module.exports = ContactUsModel;

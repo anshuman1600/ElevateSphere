@@ -1797,8 +1797,8 @@ footer .row {
   opacity: 1;
 }
 #scrollUp {
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 25px;
   width: 30px;
   height: 50px;
   -webkit-border-radius: 100px;
@@ -2036,7 +2036,7 @@ footer.ftshap:before {
 }
 .breadcrumb-area:before,
 .breadcrumb-areav2:before {
-  opacity: 0.85;
+  opacity: 1;
   left: 0;
   z-index: 0;
   background: -moz-linear-gradient(-45deg, #ffdee9 0, #c8fff4 100%);

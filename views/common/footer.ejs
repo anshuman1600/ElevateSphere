@@ -151,7 +151,16 @@
 			</div>
 		</div>
 	</div>
+	
 </footer>
+<div class="fixed-buttons">
+	<a href="tel:+91 9454488061" class="call-button">
+		<i class="fas fa-phone"></i>
+	</a>
+	<a href="https://wa.me/+919454488061" class="whatsapp-button" target="_blank">
+		<i class="fab fa-whatsapp"></i>
+	</a>
+</div>
 
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="js/common/particle_background.js"></script>
@@ -286,6 +295,7 @@ document.getElementById('trainingForm').addEventListener('submit', async (event)
           backgroundColor: 'green',
 		  close: true,
         }).showToast();
+		form.reset();
     } else {
        // Handle the error response if needed
 	   console.error('Error submitting the form.');
@@ -312,6 +322,126 @@ document.getElementById('trainingForm').addEventListener('submit', async (event)
       }).showToast();
   }
 });
+
+document.getElementById('contactUsClient').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const form = event.target;
+	console.log(form);
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phoneNo: form.phoneNo.value,
+        address: form.address.value,
+        message: form.message.value,
+    };
+
+    try {
+        const response = await fetch('http://localhost:3000/contact_us_client', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to submit form.');
+        }
+
+        const data = await response.json();
+        if (data.message === 'Contact Us Client Saved Successfully') {
+            Toastify({
+          text: 'Form submitted successfully!',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+			Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+    } catch (error) {
+		Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+    }
+});
+
+document.getElementById('contactUsTraining').addEventListener('submit', async (event) => {
+
+    event.preventDefault();
+
+    const form = event.target;
+	console.log(form);
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phoneNo: form.phoneNo.value,
+        qualification: form.qualification.value,
+		address: form.address.value,
+        message: form.message.value,
+    };
+
+    try {
+        const response = await fetch('http://localhost:3000/contact_us_training', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to submit form.');
+        }
+
+        const data = await response.json();
+        if (data.message === 'Contact Us Client Saved Successfully') {
+            Toastify({
+          text: 'Form submitted successfully!',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+			Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+    } catch (error) {
+		Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+    }
+});
+
 
 
 
