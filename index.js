@@ -33,10 +33,14 @@ app.use("/service_form", require("./router/service_form_router"));
 // Meta Tag Data Filling
 
 const Meta_Tag = [
-  // meta 1
+  // meta 1 home
   {
     page: "home",
     pg_title: "Best IT Company in Lucknow - Moundweb IT & Web Development ",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/",
+    },
     meta_1: {
       name: "description",
       content:
@@ -48,10 +52,14 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  //meta 2
+  //meta 2 about
   {
     page: "about",
     pg_title: "About Us - Best IT Company in Lucknow ",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/",
+    },
     meta_1: {
       name: "description",
       content:
@@ -63,10 +71,14 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  //meta 3
+  //meta 3 contact us
   {
     page: "contact",
     pg_title: "Contact Us - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/contact-us",
+    },
     meta_1: {
         name: "description",
         content:
@@ -78,10 +90,14 @@ const Meta_Tag = [
           "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
       },
     },
-    // meta 4
+    // meta 4 graphic Designing
     {
       page: "graphic Design",
       pg_title: "Best Graphic Designing Company in Lucknow - Moundweb IT & Web Development  ",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/best-Graphic-design-company",
+      },
       meta_1: {
         name: "description",
         content:
@@ -93,10 +109,14 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  // meta 5
+  // meta 5 digital marketing course
   {
     page: "Digital Marketing Course",
     pg_title: "Digital Marketing - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/best-digital-marketing-course",
+    },
     meta_1: {
       name: "description",
       content:
@@ -108,10 +128,14 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  // meta 6
+  // meta 6 web development course
   {
     page: "Website Development Course" ,
     pg_title: "Website Development Course - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/best-web-development-course",
+    },
     meta_1: {
       name: "description",
       content:
@@ -123,10 +147,14 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  // meta 7
+  // meta 7 Influencer Marketing
   {
     page: "Influencer Marketing" ,
     pg_title: "Influencer Marketing Company - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/best-influencer-marketing-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -135,12 +163,17 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+      "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
+  // meta 8 web development service
   {
     page: "Web Development Services" ,
     pg_title: "Best Website Development Company in Lucknow - Moundweb IT &amp; Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/best-web-development-service",
+    },
     meta_1: {
       name: "description",
       content:
@@ -152,7 +185,25 @@ const Meta_Tag = [
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
   },
-  // meta 8
+  // meta 9 career
+  {
+    page: "Career" ,
+    pg_title: "Best IT Company in Lucknow - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/career",
+    },
+    meta_1: {
+      name: "description",
+      content:
+        "Are you Looking for a Website Development Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading web Development Company in Lucknow, India. For more Information you can contact us.",
+    },
+    meta_2: {
+      name: "keywords",
+      content:
+        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+    },
+  },
 ];
 
 // Service Page Dynamic Data Filling
@@ -163,6 +214,10 @@ const Development = [
    pg_title:
       "Best Website Development Company in Lucknow - Moundweb IT & Web Solutions",
     type: "Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/best-website-development-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -400,6 +455,10 @@ const Development = [
     type: "Development",
     pg_title:
       "Mobile App Development Company in Lucknow - Moundweb IT & Web Solutions",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/best-app-development-company",
+      },
     meta_1: {
       name: "description",
       content:
@@ -628,6 +687,10 @@ const Development = [
     type: "Development",
     pg_title:
       "Best Blockchain Development Company in Lucknow - Moundweb IT & Web Solutions",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/blockchain-development-company",
+      },
     meta_1: {
       name: "description",
       content:
@@ -865,6 +928,10 @@ const Development = [
     type: "Development",
     pg_title:
       "Best Software Development Company in Lucknow - Moundweb IT & Web Solutions",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/software-development-company",
+      },
     meta_1: {
       name: "description",
       content:
@@ -1103,6 +1170,10 @@ const Development = [
     type: "Development",
     pg_title:
       "Best E-commerce Website Development Company in Lucknow - Moundweb IT & Web Solutions",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/e-commerce-development-company",
+      },
     meta_1: {
       name: "description",
       content:
@@ -1342,6 +1413,10 @@ const Development = [
     type: "Marketing",
     pg_title:
       "Best Digital Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+      link:{
+        rel: "canonical",
+        href: "https://moundweb.com/best-digital-marketing-company",
+      },
     meta_1: {
       name: "description",
       content:
@@ -1374,19 +1449,18 @@ const Development = [
     tagline: "Digital Marketing ",
     price_table_title: "Digital Marketing Packages",
     price_table_desc:
-      "We offer a range of affordable and flexible software development packages tailored to meet your needs. Whether you require a simple or complex software solution, we have the perfect package for you. Our Basic Website Development package is designed for small businesses, providing custom website design, responsive layouts, and basic SEO optimization. For businesses looking to sell products online, our E-commerce Solution package offers customized e-commerce websites with secure payment gateways, product catalog management, and SEO optimization. Our Custom Enterprise Software package is ideal for larger organizations, providing tailored software development, integration with existing systems, and ongoing support. If you're targeting mobile users, our Mobile App Development package delivers native or cross-platform app development, user-friendly interfaces, and app store optimization. Lastly, our Digital Marketing Suite combines website development with comprehensive digital marketing services, including SEO, PPC advertising, social media management, email marketing, and analytics. Choose the package that suits you best and get the best value for your money.",
+      "Experience growth and success with our Digital Marketing Suite, offering tailored website development, SEO, PPC advertising, social media management, email marketing, and comprehensive analytics. Whether you're a small business, e-commerce platform, or a large enterprise, our affordable and flexible packages cater to your specific needs. Boost your online presence, attract targeted traffic, engage with your audience, and drive conversions with our expert team at your service. Let us handle your digital marketing requirements while you reap the benefits and watch your business thrive in the competitive digital landscape. Choose the best value for your money and take the first step towards a flourishing future.",
     price_table_card: [
       {
-        title: "★Startup",
-        description: "Website Development",
+        title: "★ Startup",
+        description: "Digital Marketing",
         image: "images/icons/plan-1.svg",
         rate: "₹ 10,000/$ 122",
         type: "EXCLUSIVE OF ALL TAXES",
         list: [
-          "Upto 5 pages",
-          "Logo",
-          "Slider",
-          "Dynamic Website",
+          "SEO for Upto 5 pages",
+          "Social Media Marketing",
+          "Basic Website Development",
           "Domain-1st Year Free",
           "Hosting Free For 1st Year",
           "1 Email – 500 MB Quota",
@@ -1411,16 +1485,15 @@ const Development = [
         button: "bg-btn",
       },
       {
-        title: "➚Growth",
-        description: "Website Development",
+        title: "➚ Growth",
+        description: "Digital Marketing",
         image: "images/icons/plan-2.svg",
         rate: "₹ 15,000/$ 183",
         type: "EXCLUSIVE OF ALL TAXES",
         list: [
-          "Upto 10 pages",
-          "Logo",
-          "Slider",
-          "Dynamic Website",
+          "SEO for Upto 10 pages",
+          "Social Media Marketing",
+          "Advanced Website Development",
           "Domain-1st Year Free",
           "Hosting Free For 1st Year",
           "2 Email – 500 MB Quota",
@@ -1445,24 +1518,26 @@ const Development = [
         button: "bg-btn3",
       },
       {
-        title: "♕Premium",
-        description: "Website Development",
+        title: "♕ Premium",
+        description: "Digital Marketing",
         image: "images/icons/plan-3.svg",
-        rate: "₹25,000/$ 305",
+        rate: "₹ 25,000/$ 305",
         type: "EXCLUSIVE OF ALL TAXES",
         list: [
-          "Upto 20 pages",
+          "SEO for Upto 20 pages",
+          "Social Media Marketing",
+          "E-commerce Solutions",
           "Up to 50 Products",
           "Logo",
           "Contact Form – 3",
           "5 Email – 500 MB Quota",
-          " Content – Free",
+          "Content – Free",
           "300 Rs/Extra Page",
           "WhatsApp Chat Integration",
           "Social Media Profiles Integration",
           "Social Profile Link",
           "Facebook Page Creation",
-          " WordPress Login Details Will be Given",
+          "WordPress Login Details Will be Given",
           "Payment Gateway",
           "Revisions – 2",
           "Extra Support – 500 Rs/Hour",
@@ -1475,52 +1550,46 @@ const Development = [
           "Easy to Edit",
           "Login Details Will Be Given",
           "Delivery in 15 Days",
-
-
         ],
         button: "bg-btn",
-      },
+      }
     ],
     process_title: "Our Digital Marketing Process",
     process_desc:
       " Digital marketing is a broad term that encompasses all marketing efforts using digital technologies. Digital marketing strategies can include search engine optimization (SEO), search engine marketing (SEM), social media marketing, email marketing, content marketing, influencer marketing, and more. ",
-    process_card: [
-      {
-        title: "Analysis",
-        content:
-          "In digital marketing, our analytics process involves collecting and interpreting data to gain insight into consumer behavior, campaign performance, and market trends. This enables marketers to make informed decisions, optimize strategies, and maximize ROI. Through tools such as Google Analytics and social media analytics, valuable data is harnessed to run effective digital marketing campaigns.",
-        image: "images/common/Marketing/process-1.webp",
-      },
-      {
-        title: "Strategic",
-        content:
-          "Content creation and optimization is an important process in digital marketing which involves creating engaging, relevant and valuable content for various online channels. This includes conducting keyword research, creating compelling copy, and optimizing content for search engines. By aligning content with audience needs and search intent, marketers can increase visibility, increase traffic, and boost audience engagement.",
-        image: "images/common/Marketing/process-2.webp",
-      },
-      {
-        title: "Content Creation & Optimization",
-        content:
-          "Our digital advertising process in digital marketing involves creating and delivering targeted advertisements to reach specific audiences across various digital channels. This includes steps such as defining campaign objectives, identifying target audiences, selecting ad formats, setting a budget, creating engaging ad creatives, launching campaigns, and monitoring performance to optimize results.",
-        image: "images/common/Marketing/process-3.webp",
-      },
-      {
-        title: "Digital Advertising",
-        content:
-          "Our development process for software development includes requirements gathering, designing user interface, coding, integrating back-end functionality, and implementing front-end design. It involves using programming languages, frameworks, and databases to build the website, followed by testing, bug fixing, and deployment to ensure a functional and reliable web application.",
-        image: "images/common/Marketing/process-4.webp",
-      },
-      {
-        title: "Analysis & Reporting",
-        content:
-          "Our testing process for software development includes creating test cases based on project requirements, performing functional and usability testing, checking cross-browser compatibility, performing performance testing, and ensuring responsive design. This includes bug tracking, regression testing, user acceptance testing, and validating accessibility standards to ensure a high-quality and error-free website.",
-        image: "images/common/Marketing/process-5.webp",
-      },
-    ],
-    why_us: "Why Choice Moundweb As A Best Software Development Company?",
+      process_card: [
+        {
+          title: "Analysis",
+          content: "In digital marketing, our analytics process involves collecting and interpreting data to gain insight into consumer behavior, campaign performance, and market trends. This enables marketers to make informed decisions, optimize strategies, and maximize ROI. Through tools such as Google Analytics and social media analytics, valuable data is harnessed to run effective digital marketing campaigns.",
+          image: "images/common/Marketing/process-1.webp",
+        },
+        {
+          title: "Strategic",
+          content: "Content creation and optimization is an important process in digital marketing which involves creating engaging, relevant and valuable content for various online channels. This includes conducting keyword research, creating compelling copy, and optimizing content for search engines. By aligning content with audience needs and search intent, marketers can increase visibility, increase traffic, and boost audience engagement.",
+          image: "images/common/Marketing/process-2.webp",
+        },
+        {
+          title: "Content Creation & Optimization",
+          content: "Our digital advertising process in digital marketing involves creating and delivering targeted advertisements to reach specific audiences across various digital channels. This includes steps such as defining campaign objectives, identifying target audiences, selecting ad formats, setting a budget, creating engaging ad creatives, launching campaigns, and monitoring performance to optimize results.",
+          image: "images/common/Marketing/process-3.webp",
+        },
+        {
+          title: "Digital Advertising",
+          content: "Our development process for software development includes requirements gathering, designing user interface, coding, integrating back-end functionality, and implementing front-end design. It involves using programming languages, frameworks, and databases to build the website, followed by testing, bug fixing, and deployment to ensure a functional and reliable web application.",
+          image: "images/common/Marketing/process-4.webp",
+        },
+        {
+          title: "Analysis & Reporting",
+          content: "Our testing process for software development includes creating test cases based on project requirements, performing functional and usability testing, checking cross-browser compatibility, performing performance testing, and ensuring responsive design. This includes bug tracking, regression testing, user acceptance testing, and validating accessibility standards to ensure a high-quality and error-free website.",
+          image: "images/common/Marketing/process-5.webp",
+        },
+      ],
+      
+    why_us: "Why Choice Moundweb As A Best Digital Marketing Company?",
     why_us_desc:
       "After years in the industry, we have accumulated valuable knowledge that has given me a better understanding of the dynamics of online marketing. This is the valuable experience we bring to the fore as you develop your business strategy and incorporate it into your daily operations for success. As a result, your Lucknow based company will be able to compete. ",
     our_project_desc:
-      "Welcome to Lucknow's No.1 software development company. With our expertise in mobile app development, we help businesses like yours thrive in the digital world. Moundweb is the best software development company in Lucknow.",
+      "Welcome to Lucknow's No.1 Digital Marketing company. With our expertise in Digital Marketing, we help businesses like yours thrive in the digital world. Moundweb is the best Digital Marketing company in Lucknow.",
     our_project_card: [
       {
         title: "Creative",
@@ -1568,6 +1637,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best SEO Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-seo-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -1845,6 +1918,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best (SMM) Social Media Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-smm-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -2137,6 +2214,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best Social Media Management Company in Lucknow -  Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-social-media-management-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -2428,6 +2509,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best PPC Advertising Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-ppc-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -2651,6 +2736,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best Bulk SMS Service Provider Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-bulk-sms-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -2817,6 +2906,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best Email Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-email-marketing-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -2997,6 +3090,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best Content Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-content-marketing-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -3171,6 +3268,10 @@ const Development = [
   {
     type: "Marketing",
     pg_title: "Best Video Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/top-video-marketing-company",
+    },
     meta_1: {
       name: "description",
       content:
@@ -3353,6 +3454,10 @@ const Training = [
     tagline: "Web Development",
     type:"Web Development Training",
     pg_title : "Best Web Development Course in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://www.moundweb.com/best-web-development-training",
+    },
     meta_1 : {
       name: "description",
       content:  "Moundweb is the best Web Development Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
@@ -3439,6 +3544,10 @@ const Training = [
     tagline: "Digital Marketing",
     type:"Digital Marketing Training",
     pg_title : "Best Digital Marketing Course in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://www.moundweb.com/best-digital-marketing-training",
+    },
     meta_1 : {
       name: "description",
       content:  "Moundweb is the Top Digital Marketing Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
@@ -3524,6 +3633,10 @@ const Training = [
     tagline: "Graphic Designing",
     type:"Graphic Designing Training",
     pg_title : "Top Graphic Designing Course in Lucknow - Moundweb IT & Web Solutions",
+    link:{
+      rel: "canonical",
+      href: "https://www.moundweb.com/best-graphic-designing-training",
+    },
     meta_1 : {
       name: "description",
       content:  "Moundweb is the Best Graphic Designing Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
@@ -3602,7 +3715,7 @@ app.get("/contact-us", (req, res) => {
   res.render("contact-us/index.ejs", Meta_Tag[2]);
 });
 app.get("/career", (req, res) => {
-  res.render("career/index.ejs", Meta_Tag[0]);
+  res.render("career/index.ejs", Meta_Tag[8]);
 });
 app.get("/best-website-development-company", (req, res) => {
   res.render("services/website_index.ejs", Development[0]);
