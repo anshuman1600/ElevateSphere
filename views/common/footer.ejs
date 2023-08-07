@@ -248,7 +248,7 @@ form.addEventListener('submit', async (event) => {
 
 	// Show success popup message here (you can use a library like Bootstrap modal, SweetAlert, etc.)
 	Toastify({
-          text: 'Form submitted successfully!',
+          text: 'Thank You! We will contact you soon.',
           duration: 1000, // 3 seconds
           gravity: 'top', // 'top', 'bottom', 'center'
           position: 'right', // 'left', 'center', 'right'
@@ -288,7 +288,7 @@ document.getElementById('trainingForm').addEventListener('submit', async (event)
       console.log(data);
       // Show the success modal
 	  Toastify({
-          text: 'Form submitted successfully!',
+          text: 'Thank You! We will contact you soon.',
           duration: 1000, // 3 seconds
           gravity: 'top', // 'top', 'bottom', 'center'
           position: 'right', // 'left', 'center', 'right'
@@ -351,7 +351,7 @@ document.getElementById('contactUsClient').addEventListener('submit', async (eve
         const data = await response.json();
         if (data.message === 'Contact Us Client Saved Successfully') {
             Toastify({
-          text: 'Form submitted successfully!',
+          text: 'Thank You! We will contact you soon.',
           duration: 1000, // 3 seconds
           gravity: 'top', // 'top', 'bottom', 'center'
           position: 'right', // 'left', 'center', 'right'
@@ -384,7 +384,6 @@ document.getElementById('contactUsClient').addEventListener('submit', async (eve
 document.getElementById('contactUsTraining').addEventListener('submit', async (event) => {
 
     event.preventDefault();
-
     const form = event.target;
 	console.log(form);
     const formData = {
@@ -408,11 +407,10 @@ document.getElementById('contactUsTraining').addEventListener('submit', async (e
         if (!response.ok) {
             throw new Error('Failed to submit form.');
         }
-
         const data = await response.json();
-        if (data.message === 'Contact Us Client Saved Successfully') {
+        if (data.message === 'Contact Us Client Saved Successfully'|| data.status === 'success') {
             Toastify({
-          text: 'Form submitted successfully!',
+          text: 'Thank You! We will contact you soon.',
           duration: 1000, // 3 seconds
           gravity: 'top', // 'top', 'bottom', 'center'
           position: 'right', // 'left', 'center', 'right'
@@ -420,6 +418,7 @@ document.getElementById('contactUsTraining').addEventListener('submit', async (e
 		  close: true,
         }).showToast();
 		form.reset();
+
         } else {
 			Toastify({
           text: 'Error submitting the form.',

@@ -24,6 +24,7 @@ app.use("/client_form", require("./router/Client_form_router"));
 app.use("/training_form", require("./router/training_form_router"));
 app.use("/contact_us_training", require("./router/contact_us_training_router"));
 app.use("/contact_us_client", require("./router/contact_us_client_router"));
+app.use("/service_form", require("./router/service_form_router"));
 
 
 // Path: index.js

@@ -67,7 +67,14 @@
     </div>
   </div>
 </footer>
-
+<div class="fixed-buttons">
+	<a href="tel:+91 9454488061" class="call-button">
+		<i class="fas fa-phone"></i>
+	</a>
+	<a href="https://wa.me/+919454488061" class="whatsapp-button" target="_blank">
+		<i class="fab fa-whatsapp"></i>
+	</a>
+</div>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
@@ -89,7 +96,7 @@
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
 <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="js/jquery.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.js"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -100,10 +107,120 @@
   });
 
   // Add your form submission logic here, e.g., using AJAX to submit the form data
-  document.getElementById("contactForm").addEventListener("submit", function (event) {
+  document.getElementById("contactForm").addEventListener("submit", async function (event) {
     event.preventDefault();
     // Your form submission logic here...
+    const form = event.target;
+    console.log(form);
+    const formData = new FormData(form);
+    console.log(formData);
+  
+  try {
+        const response = await fetch('http://localhost:3000/service_form', {
+          method: 'POST',
+          body: new URLSearchParams(formData), // Send the form data as a URL-encoded string
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          console.log(result); // This will log the response from the server
+          // Handle the response or show a success message to the user as needed
+          Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+          console.error('Error:', response.status, response.statusText);
+          // Handle errors or show an error message to the user
+          Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        // Handle errors or show an error message to the user
+        Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+      }
+
   });
+  document.getElementById("contactForm2").addEventListener("submit", async function (event) {
+    event.preventDefault();
+    // Your form submission logic here...
+    const form = event.target;
+    console.log(form);
+    const formData = new FormData(form);
+    console.log(formData);
+  
+  try {
+        const response = await fetch('http://localhost:3000/service_form', {
+          method: 'POST',
+          body: new URLSearchParams(formData), // Send the form data as a URL-encoded string
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          console.log(result); // This will log the response from the server
+          // Handle the response or show a success message to the user as needed
+          Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+          console.error('Error:', response.status, response.statusText);
+          // Handle errors or show an error message to the user
+          Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        // Handle errors or show an error message to the user
+        Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+      }
+
+  });
+
+
   $(document).ready(function () {
     // Function to handle card click
     function showPopup() {
@@ -115,6 +232,63 @@
       showPopup();
     });
   });
+
+    // JavaScript code to handle form submission using fetch API and async/await
+    const form = document.getElementById('serviceForm');
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault(); // Prevent default form submission
+
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch('http://localhost:3000/service_form', {
+          method: 'POST',
+          body: new URLSearchParams(formData), // Send the form data as a URL-encoded string
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          console.log(result); // This will log the response from the server
+          // Handle the response or show a success message to the user as needed
+          Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+          console.error('Error:', response.status, response.statusText);
+          // Handle errors or show an error message to the user
+          Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        // Handle errors or show an error message to the user
+        Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+      }
+    });
 </script>
 
 
