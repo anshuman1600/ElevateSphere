@@ -26,9 +26,28 @@
 	.active-dark .footer-row1 {
 		background: #101010;
 	}
+	@media only screen and (max-width: 600px) {
+  		.footer-social-media-icons a {
+  color: #6a6a8e;
+  font-size: 10px;
+  border-radius: 10px;
+  margin: 5px 5px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+.footer-social-media-icons{
+	display: flex;
+	margin-left: 25px;
+	justify-content: center;
+}
+}
+
 </style>
-<footer class="ftshap">
-	<div class="footer-svg">
+<footer class="ftshap ">
+	<div class="footer-svg ">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path fill="#121212" fill-opacity="1"
 				d="M0,256L60,240C120,224,240,192,360,197.3C480,203,600,245,720,266.7C840,288,960,288,1080,266.7C1200,245,1320,203,1380,181.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
@@ -104,24 +123,24 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="footer-social-media-icons">
-							<a href="https://www.facebook.com/moundwebit" target="blank"style="color:#2c67dd"><i
+							<a href="https://www.facebook.com/moundwebit" target="blank" ><i
 									class="fab fa-facebook"></i></a>
 							<a href="https://www.instagram.com/mound_web/" target="blank"><i
-									class="fab fa-instagram"style="color:#dc1e6a"></i></a>
+									class="fab fa-instagram" ></i></a>
 							<a href="https://www.linkedin.com/in/moundwebit/" target="blank"><i
-									class="fab fa-linkedin"style="color:#0d95fd"></i></a>
-							<a href="https://wa.me/+919454488061" target="blank"><i class="fab fa-whatsapp"style="color:green"></i></a>
-							<a href="https://twitter.com/MoundwebD" target="blank"><i class="fab fa-twitter"style="color:#1093e5"></i></a>
+									class="fab fa-linkedin"></i></a>
+							<a href="https://wa.me/+919454488061" target="blank"><i class="fab fa-whatsapp"></i></a>
+							<a href="https://twitter.com/MoundwebD" target="blank"><i class="fab fa-twitter"></i></a>
 							<a href="https://www.youtube.com/@Moundweb" target="blank"><i
-									class="fab fa-youtube"style="color:#e81717"></i></a>
+									class="fab fa-youtube"></i></a>
 							<a href="https://in.pinterest.com/moundweb/" target="blank"><i
-									class="fab fa-pinterest"style="color:#9e0a0a;"></i></a>
+									class="fab fa-pinterest"></i></a>
 							<a href="https://www.quora.com/profile/Moundweb-IT-And-Web-Solutions" target="blank"><i
-									class="fab fa-quora"style="color:red;"></i></a>
+									class="fab fa-quora"></i></a>
 							<a href="mailto:contact@moundweb.com" target="blank"><i
-									class="fa-solid fa-envelope-circle-check"style="color:#0aa4e6;"></i></a>
+									class="fa-solid fa-envelope-circle-check"></i></a>
 							<a href="https://www.reddit.com/user/mound_web/" target="blank"><i
-									class="fab fa-reddit"style="color:red;"></i></a>
+									class="fab fa-reddit"></i></a>
 						</div>
 						<div class="footer-">
 							<p>Followed By Ranker Choice Education Pvt. Ltd.</p>
@@ -131,7 +150,16 @@
 			</div>
 		</div>
 	</div>
+	
 </footer>
+<div class="fixed-buttons">
+	<a href="tel:+91 9454488061" class="call-button">
+		<i class="fas fa-phone"></i>
+	</a>
+	<a href="https://wa.me/+919454488061" class="whatsapp-button" target="_blank">
+		<i class="fab fa-whatsapp"></i>
+	</a>
+</div>
 
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="js/common/particle_background.js"></script>
@@ -155,6 +183,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 <script>
 	var owl = $('.niwax-client-slider');
@@ -192,7 +222,7 @@
 
 
 		
-		const form = document.getElementById('trainingForm');
+		const form = document.getElementById('clientForm');
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault(); // Prevent default form submission behavior
@@ -200,7 +230,7 @@ form.addEventListener('submit', async (event) => {
   const formData = new FormData(form);
 
   try {
-	const response = await fetch('http://localhost:3000/training_form', {
+	const response = await fetch('http://localhost:3000/client_form', {
 	  method: 'POST',
 	  headers: {
 		'Content-Type': 'application/json'
@@ -216,15 +246,203 @@ form.addEventListener('submit', async (event) => {
 	console.log('Form submitted successfully:', data);
 
 	// Show success popup message here (you can use a library like Bootstrap modal, SweetAlert, etc.)
-	alert('Form submitted successfully!');
+	Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
 
 	// Reset the form after successful submission
 	form.reset();
   } catch (error) {
-	console.error('Form submission error:', error);
-	// Handle error, show error message to the user, etc.
+	Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
   }
 });
+
+document.getElementById('trainingForm').addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const form = event.target;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch('http://localhost:3000/training_form', {
+      method: 'POST',
+      body: formData,
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      // Handle the successful response data if needed
+      console.log(data);
+      // Show the success modal
+	  Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+    } else {
+       // Handle the error response if needed
+	   console.error('Error submitting the form.');
+        // Show the error toast notification
+        Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+    }
+  } catch (error) {
+    console.error('Error occurred during form submission:', error);
+    // Show the error modal
+	Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+  }
+});
+
+document.getElementById('contactUsClient').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const form = event.target;
+	console.log(form);
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phoneNo: form.phoneNo.value,
+        address: form.address.value,
+        message: form.message.value,
+    };
+
+    try {
+        const response = await fetch('http://localhost:3000/contact_us_client', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to submit form.');
+        }
+
+        const data = await response.json();
+        if (data.message === 'Contact Us Client Saved Successfully') {
+            Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+        } else {
+			Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+    } catch (error) {
+		Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+    }
+});
+
+document.getElementById('contactUsTraining').addEventListener('submit', async (event) => {
+
+    event.preventDefault();
+    const form = event.target;
+	console.log(form);
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phoneNo: form.phoneNo.value,
+        qualification: form.qualification.value,
+		address: form.address.value,
+        message: form.message.value,
+    };
+
+    try {
+        const response = await fetch('http://localhost:3000/contact_us_training', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to submit form.');
+        }
+        const data = await response.json();
+        if (data.message === 'Contact Us Client Saved Successfully'|| data.status === 'success') {
+            Toastify({
+          text: 'Thank You! We will contact you soon.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'green',
+		  close: true,
+        }).showToast();
+		form.reset();
+
+        } else {
+			Toastify({
+          text: 'Error submitting the form.',
+          duration: 1000, // 3 seconds
+          gravity: 'top', // 'top', 'bottom', 'center'
+          position: 'right', // 'left', 'center', 'right'
+          backgroundColor: 'red',
+		  close: true,
+        }).showToast();
+        }
+    } catch (error) {
+		Toastify({
+        text: 'Error occurred during form submission.',
+        duration: 1000, // 3 seconds
+        gravity: 'top', // 'top', 'bottom', 'center'
+        position: 'right', // 'left', 'center', 'right'
+        backgroundColor: 'red',
+		close: true,
+      }).showToast();
+    }
+});
+
+
+
+
 </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

@@ -1,0 +1,65 @@
+/* Add your existing CSS styles here */
+
+/* Style for the fixed buttons */
+.fixed-buttons {
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+    z-index: 999;
+}
+
+
+.fixed-buttons a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366; /* WhatsApp green color */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+@media (max-width: 550px) {
+    .fixed-buttons {
+        position: fixed;
+        bottom: 80px;
+        right: 25px;
+        z-index: 999;
+    }
+    .fixed-buttons a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-color: #25D366; /* WhatsApp green color */
+        border-radius: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+}
+
+
+
+    
+
+.fixed-buttons a.call-button {
+    background-color: #34b7f1; /* Phone call blue color */
+}
+
+.fixed-buttons a:hover {
+    background-color: #128c7e; /* Hover color for WhatsApp */
+}
+
+.fixed-buttons a.call-button:hover {
+    background-color: #007bff; /* Hover color for Phone call */
+}

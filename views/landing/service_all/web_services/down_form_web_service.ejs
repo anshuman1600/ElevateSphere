@@ -1,7 +1,17 @@
-<section class="hero-section niwax-lp1 mt30" data-background="images/banner/niwax-lpbg.jpg" id="enquery">
+<style>
+ /* Custom styles to make icons bigger and bolder */
+.contact-social .social-icon i {
+    font-size: 15px; /* Adjust the value to make the icons bigger */
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+</style>
+
+<section class="breadcrumb-areav2 mt30" data-background="images/banner/banner_web.png" id="enquery">
     <div class="text-block">
         <div class="container">
-            <div class="row v-center justify-content-between px50">
+            <div class="row justify-content-between px50">
                 <div class="col-lg-7 wow zoomIn" data-wow-delay=".2s">
                     <div class="header-headings">   
                         <h2 class="wow fadeIn mt30 mb10 cd-headline " data-wow-delay=".4s">READY TO MAKE YOUR Website Design <span class="text-second text-bold text-radius text-light text-animation bg-b" >MORE EFFECTIVE?</span>
@@ -10,33 +20,62 @@
                             <br>
                             </p>
                     </div>
+                    <p style="border-bottom: 2px rgb(222, 222, 222) solid; margin-top: 20px;"></p>
+                        <div class="contact-section mt30 p-3">
+                            <div class="row ">
+                                <div class="col-lg-6 col-sm-12">
+                                    <h3>Contact Us</h3>
+                                    <div class="contact-item mt10 ">
+                                        <p class=""> <a href="mailto:contact@moundweb.com"> <i class="fa fa-envelope "></i> →  contact@moundweb.com</a></p>
+                                    </div>
+                                    <div class="contact-item mt10">
+                                        <p class=""> <a href="mailto:support@moundweb.com"> <i class="fa fa-envelope "></i> →  support@moundweb.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <h3>Feel Free To Call</h3>
+                                    <div class="contact-item mt10">
+                                        <p class=""><a href="tel:+91 9454488061"> <i class="fa fa-phone "></i> →  +91 9454488061 </a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="mt10">Follow Us On</h4>
+                            <div class="contact-social mt10">
+                                <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                                <a href="#" class="social-icon"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
                 </div>
                 <div class="col-lg-4 v-center wow zoomIn" data-wow-delay=".5s">
                     <div class="form-block formcover shadow">
                         <h4>Contact Us Now</h4>
-                        <form id="contactForm" data-bs-toggle="validator" class="shake mt30">
+                        <form id="contactForm2" action="#" method="post" name="feedback-form" data-bs-toggle="validator" class="shake mt30">
                             <div class="row">
                                 <div class="form-group col-sm-12">
-                                    <input type="text" id="name" placeholder="Enter name" required
+                                    <input type="text"  name="name" placeholder="Enter name" required
                                         data-error="Please fill Out">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-sm-12">
-                                    <input type="email" id="email" placeholder="Enter email" required>
+                                    <input type="email"  name="email" placeholder="Enter email" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group">
-                                    <input type="text" id="mobile" placeholder="Enter mobile" required
+                                    <input type="number"  name="phone" placeholder="Enter mobile" required
                                         data-error="Please fill Out">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea id="message" rows="5" placeholder="About"
+                                <textarea id="message" rows="5" name="message" placeholder="About"
                                     ></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>

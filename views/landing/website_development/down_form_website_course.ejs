@@ -1,27 +1,42 @@
+<section class="breadcrumb-areav2 " data-background="images/banner/banner_web.png" data-background-size="cover" id="home">
 <div class="col-lg-5 wow zoomInDown" data-wow-delay=".5" style="margin: 0 auto;margin-bottom: 100px;" id="enquery">
     <div class="form-block formcover shadow">
         <h4>Web Development Registration</h4>
-        <form id="contactForm" data-bs-toggle="validator" class="shake mt30">
+        <form id="contactForm2" data-bs-toggle="validator" class="shake mt30">
             <div class="row">
                 <div class="form-group col-sm-6">
-                    <input type="text" id="name" placeholder="Enter name" required
+                    <input type="text" id="name" name="name" placeholder="Enter name" required
                         data-error="Please fill Out">
                     <div class="help-block with-errors"></div>
                 </div>
                 <div class="form-group col-sm-6">
-                    <input type="email" id="email" placeholder="Enter email" required>
+                    <input type="email" id="email" name="email" placeholder="Enter email" required>
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group ">
-                    <input type="text" id="mobile" placeholder="Enter mobile" required
+                    <input type="number" id="mobile" name="phoneNo" placeholder="Enter mobile" required
+                        data-error="Please fill Out">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group ">
+                    <input type="text" id="qualification" name="qualification" placeholder="Qualification" required
+                        data-error="Please fill Out">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group ">
+                    <input type="text" id="address" name="address" placeholder="Address" required
                         data-error="Please fill Out">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
             <div class="form-group">
-                <textarea id="message" rows="5" placeholder="Enter your message"
+                <textarea id="message" rows="5" name="message" placeholder="Enter your message"
                     required></textarea>
                 <div class="help-block with-errors"></div>
             </div>
@@ -31,3 +46,4 @@
         </form>
     </div>
 </div>
+</section>

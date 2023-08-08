@@ -23,9 +23,26 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-N6557MW');</script>
     <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3542791959280664');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3542791959280664&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
     <!-- Google tag (gtag.js) -->
     
-    <title> <%= pg_title %>></title>
+    <title> <%= pg_title %></title>
     <meta name="<%= meta_1.name %>" content="<%= meta_1.content %>">
     <meta name="<%= meta_2.name %>" content="<%= meta_2.content %>">
     <meta charset="utf-8" />
@@ -37,12 +54,12 @@
 
 <link href="images/favicon.ico" rel="icon">
 <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-
+<link rel="<%= link.rel %>" href="<%= link.href %>" />
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/plugin.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- Add Owl Carousel CSS and JS files -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -50,11 +67,13 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link href="css/darkmode.css" rel="stylesheet">
+<link rel="stylesheet" href="css/common/floating_icon.css">
 <link rel="stylesheet" href="css/common/influence.css">
 <link rel="stylesheet" href="css/common/common_css.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="css/swiper.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Domine:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.css">
 </head>
 
