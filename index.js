@@ -49,7 +49,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
     },
   },
   //meta 2 about
@@ -68,7 +68,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
     },
   },
   //meta 3 contact us
@@ -87,7 +87,7 @@ const Meta_Tag = [
       meta_2: {
         name: "keywords",
         content:
-          "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+          "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
       },
     },
     // meta 4 graphic Designing
@@ -106,7 +106,7 @@ const Meta_Tag = [
       meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Graphic Designing Company in Lucknow, Graphic Designing Company in india, Top Graphic Designing Company in Lucknow, Graphic Designing Company in Lucknow,Graphic Designing Company",
     },
   },
   // meta 5 digital marketing course
@@ -125,7 +125,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Digital Marketing Course in Lucknow, Digital Marketing Course in india, Top Digital Marketing Course in Lucknow, Digital Marketing Course in Lucknow, Digital Marketing Course",
     },
   },
   // meta 6 web development course
@@ -144,7 +144,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Web Development Course in Lucknow, Web Development Course, Top Web Development Course in Lucknow, Web Development Course in Lucknow, Web Development Course",
     },
   },
   // meta 7 Influencer Marketing
@@ -163,7 +163,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-      "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+      "Best Influencer Marketing Company in Lucknow, Best Influencer Marketing Company in India, Top Influencer Marketing Company in Lucknow, Top Influencer Marketing Company,Influencer Marketing Company",
     },
   },
   // meta 8 web development service
@@ -182,7 +182,7 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Web Development Service Company in Lucknow, Best Web Development Service Company in India, Top Web Development Service Company in Lucknow, Top Web Development Service Company",
     },
   },
   // meta 9 career
@@ -196,7 +196,26 @@ const Meta_Tag = [
     meta_1: {
       name: "description",
       content:
-        "Are you Looking for a Website Development Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading web Development Company in Lucknow, India. For more Information you can contact us.",
+        "Are you Looking for a Career Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading Career Company in Lucknow, India. For more Information you can contact us.",
+    },
+    meta_2: {
+      name: "keywords",
+      content:
+        "Best Career Company in Lucknow, Best Career Company in India, Top Career Company in Lucknow, Top Career Comapany",
+    },
+  },
+  // meta 10 private policy
+  {
+    page: "Career" ,
+    pg_title: "Moundweb Private Policy - Moundweb IT & Web Development",
+    link:{
+      rel: "canonical",
+      href: "https://moundweb.com/private_policy",
+    },
+    meta_1: {
+      name: "description",
+      content:
+        "Discover Moundweb IT & Web Solutions, a premier company in Lucknow, India. Reach out to us for further information, aligning with our privacy policy.",
     },
     meta_2: {
       name: "keywords",
@@ -226,7 +245,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Web Development Company in Lucknow, Best Web Development Company in India, Top Web Development Company in Lucknow, Top Web Development Company, Web Development Company",
     },
     page: "Website Development",
     title: "Best Website Development Company in Lucknow",
@@ -467,7 +486,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best App Development Company in Lucknow, Best App Development Company in India, Top App Development Company in Lucknow, Top App Development Company,App Development Company",
     },
     page: "App Development",
     title: "Top Leading Mobile App Development Company",
@@ -699,7 +718,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Blockchain Development Company in Lucknow, Best Blockchain Development Company in India, Top Blockchain Development Company in Lucknow, Top Blockchain Development Company,Blockchain Development Company",
     },
     page: "Blockchain Development",
     title: "Top Leading Blockchain  Development Company",
@@ -940,7 +959,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Software Development Company in Lucknow, Best Software Development Company in India, Top Software Development Company in Lucknow, Top Software Development Company,Software Development Company",
     },
     page: "Software Development",
     title: "Top Software Development Company in Lucknow",
@@ -1182,7 +1201,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best E-commerce Development Company in Lucknow, Best E-commerce Development Company in India, Top E-commerce Development Company in Lucknow, Top E-commerce Development  Company,E-commerce Development Company",
     },
     page: "E-commerce Development",
     title: "E-Commerce Website Development Company in Lucknow",
@@ -1425,7 +1444,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Digital Marketing Company in Lucknow, Best Digital Marketing Company in India, Top Digital Marketing Company in Lucknow, Top Digital Marketing Company,Digital Marketing Company ",
     },
     page: "Digital Marketing",
     title: "Top Leading Digital Marketing Company in Lucknow",
@@ -1649,7 +1668,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Seo Company in Lucknow, Best Seo Company in India, Top Seo Company in Lucknow, Top Seo Company,Seo Company,seo ",
     },
     page: "Seo Marketing",
     title: "Top Leading Search Engine Optimization Company in Lucknow",
@@ -1930,7 +1949,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Social Media Marketing Company in Lucknow, Best Social Media Marketing Company in India, Top Social Media Marketing Company in Lucknow, Top Social Media Marketing Company, Social Media Marketing Company, smm",
     },
     page: "Seo Marketing",
     title: "Best Social Media Marketing (SMM) Company in Lucknow",
@@ -2226,7 +2245,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Social Media Management Company in Lucknow, Best Social Media Management Company in India, Top Social Media Management Company in Lucknow, Top Social Media Management Company, Social Media Management Company, social media management",
     },
     page: "Social Media Management Marketing",
     title: "Best Social Media Management Company in Lucknow",
@@ -2521,7 +2540,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best PPC Advertising Company in Lucknow, Best PPC Advertising Company in India, Top PPC Advertising Company in Lucknow, Top PPC Advertising Company, PPC Advertising Company, PPC Advertising",
     },
     page: "Social Media Management Marketing",
     title: "Best PPC Advertising Company in Lucknow",
@@ -2748,7 +2767,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Bulk SMS Service Provider in Lucknow, Best Bulk SMS Service Provider in India, Top Bulk SMS Service Provider in Lucknow, Top Bulk SMS Service Provider, Bulk SMS Service Provider, Bulk SMS Service",
     },
     page: "Bulk SMS Marketing",
     title: "BULK SMS Service for Lucknow Promotional Bulk SMS | Transactional Bulk SMS | Voice SMS | OTP SMS",
@@ -2918,7 +2937,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Email Marketing Company in Lucknow, Best Email Marketing Company in India, Top Email Marketing Company in Lucknow, Top Email Marketing Company, Email Marketing Company, Email Marketing",
     },
     page: "Email Marketing",
     title: "Best Email Marketing Company in Lucknow ",
@@ -3102,7 +3121,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Content Marketing Company in Lucknow, Best Content Marketing Company in India, Top Content Marketing Company in Lucknow, Top Content Marketing Company, Content Marketing Company, Content Marketing",
     },
     page: "Content Marketing",
     title: "Best Content Marketing Company in Lucknow ",
@@ -3280,7 +3299,7 @@ const Development = [
     meta_2: {
       name: "keywords",
       content:
-        "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+        "Best Video Marketing Company in Lucknow, Best Video Marketing Company in India, Top Video Marketing Company in Lucknow, Top Video Marketing Company, Video Marketing Company, Video Marketing",
     },
     page: "Video Marketing",
     title: "Best Video Marketing Company in Lucknow ",
@@ -3464,7 +3483,7 @@ const Training = [
     },
     meta_2 : {
       name: "keywords",
-      content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+      content: "Best Web Development Training Company in Lucknow, Best Web Development Training Company in India, Top Web Development Training Company in Lucknow, Top Web Development Training Company, Web Development Training Company, Web Development Training",
     },
     page : "Web Development Training",
     hero_title : "Best Web Development Course in Lucknow ",
@@ -3554,7 +3573,7 @@ const Training = [
     },
     meta_2 : {
       name: "keywords",
-      content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+      content: "Best Digital Marketing Training Company in Lucknow, Best Digital Marketing Training Company in India, Top Digital Marketing Training Company in Lucknow, Top Digital Marketing Training Company, Digital Marketing Training Company, Digital Marketing Training",
     },
     page : "Digital Marketing Training",
     hero_title : "Top Digital Marketing Course in Lucknow ",
@@ -3643,7 +3662,7 @@ const Training = [
     },
     meta_2 : {
       name: "keywords",
-      content: "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
+      content: "Best Graphic Designing Training Company in Lucknow, Best Graphic Designing Training Company in India, Top Graphic Designing Training Company in Lucknow, Top Graphic Designing Training Company, Graphic Designing Training Company, Graphic Designing Training",
     },
     page : "Graphic Designing Training",
     hero_title : "Top Graphic Designing Course in Lucknow ",
@@ -3785,6 +3804,9 @@ app.get("/best-graphic-designing-training", (req, res) => {
 });
 app.get("/F&Q", (req, res) => {
   res.render("f&q/f&q_index.ejs",Training[2]);
+});
+app.get("/private_policy", (req, res) => {
+  res.render("private_policy/policy_index.ejs",Meta_Tag[9]);
 });
 app.get("/sitemap.xml", (req, res) => {
   res.type("application/xml");
