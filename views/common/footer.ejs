@@ -78,7 +78,7 @@
 						<li><a href="/F&Q">FAQ</a></li>
 						<li><a href="#">Latest Blogs</a></li>
 						<li><a href="/career">Career</a></li>
-						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="/private_policy">Privacy Policy</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -283,6 +283,7 @@ document.getElementById('trainingForm').addEventListener('submit', async (event)
 
   const form = event.target;
   const formData = new FormData(form);
+  console.log(formData);
 
   try {
     const response = await fetch('http://localhost:3000/training_form', {
