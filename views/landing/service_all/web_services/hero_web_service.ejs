@@ -18,7 +18,13 @@
         .s-card-icon-large{
             width: 80px;
             height: 80px;
-        }   
+        } 
+        
+        @media screen and (max-width:600px){
+            .text{
+                font-size: 1rem !important;
+            }
+        }
 </style>
 
 <body class="dg-bg--1 dark-main active-dark body-box" id="banner">
@@ -30,7 +36,7 @@
                     <div class="header-headings">
                         <span class="text-second text-bold text-radius text-light text-animation bg-b">100% RESPONSIVE + SEO FRIENDLY WEBSITE</span>
                         <h2 class="wow fadeIn mt30 mb10 cd-headline clip" data-wow-delay=".4s">Quality Website Design & Development Services
-                            <span class="cd-words-wrapper" style="color: orangered; font-size: 2rem;"> <b class="is-visible">Static | Dynamic | Redesign </b>
+                            <span class="cd-words-wrapper text" style="color: orangered; font-size: 2rem;"> <b class="is-visible">Static | Dynamic | Redesign </b>
                                 <b>Corporate | Ecommerce | Portfolio </b>
                                 <b>Optimized | Responsive | Attractive </b></span>
                         </h2>
@@ -75,7 +81,7 @@
                                         name="phone" required></div>
                             </div>
                             <div class="form-group">
-                                <textarea id="message" rows="5" name="message" placeholder="About"
+                                <textarea id="message" rows="5" name="message" placeholder="What's your requirement ?"
                                     ></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
