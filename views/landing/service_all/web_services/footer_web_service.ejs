@@ -102,6 +102,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.js"></script>
 
 <script>
+  document.getElementById('phoneNo').addEventListener('input',(event)=>{
+    const inputValue = event.target.value;
+    const numericValue = inputValue.replace(/[^0-9]/g,'');
+    event.target.value = numericValue;
+});
   document.addEventListener("DOMContentLoaded", function () {
     // Use setTimeout to show the modal after 2 seconds (2000 milliseconds)
     setTimeout(function () {
@@ -290,6 +295,7 @@
       }).showToast();
       }
     });
+     
 </script>
 
 
