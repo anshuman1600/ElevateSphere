@@ -49,11 +49,7 @@
                 <a href="https://www.linkedin.com/in/moundwebit/" target="blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/mound_web/" target="blank"><i class="fab fa-instagram"></i></a>
               </div>
-              <div class=" mt10">
-                <div class="footer-copyrights-">
-                  <p style="font-size: .9rem;">Copyright © 2020-2021 Moundweb.</p>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div class="col-lg-6 col-sm-12 "  style="padding: 0 50px;">
@@ -67,7 +63,13 @@
       </div>
     </div>
   </div>
+  
 </footer>
+<div class=" mt10 bg-b ">
+  <div class="footer-copyrights-">
+    <p style="font-size: 1rem;text-align: center;color: aliceblue;">Copyright © 2020-2023 Moundweb.</p>
+  </div>
+</div>
 <div class="fixed-buttons">
 	<a href="tel:+91 9454488061" class="call-button">
 		<i class="fas fa-phone"></i>
@@ -100,6 +102,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.0/toastify.min.js"></script>
 
 <script>
+  document.getElementById('phoneNo').addEventListener('input',(event)=>{
+    const inputValue = event.target.value;
+    const numericValue = inputValue.replace(/[^0-9]/g,'');
+    event.target.value = numericValue;
+});
   document.addEventListener("DOMContentLoaded", function () {
     // Use setTimeout to show the modal after 2 seconds (2000 milliseconds)
     setTimeout(function () {
@@ -288,6 +295,7 @@
       }).showToast();
       }
     });
+     
 </script>
 
 

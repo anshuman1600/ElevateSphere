@@ -69,15 +69,15 @@
                             <div class="fieldsets row">
                                 <div class="col-md-4 col-6">
                                     <select style="border-radius: 20px;" name="country_code" id="country_code">
-                                        <option value="--Country Code--"  selected>+91</option>
-                                        <option value="+1">+1 </option>
-                                        <option value="+44">+44 </option>
-                                        <option value="+971">+971 </option>
-                                        <option value="+966">+966 </option>
-                                        <option value="+973">+973 </option>
+                                        <option value="--Country Code--"  selected>+91(IND)</option>
+                                        <option value="+1">+1(USA) </option>
+                                        <option value="+44">+44(UK) </option>
+                                        <option value="+971">+971(UAE) </option>
+                                        <option value="+966">+966(Saudi) </option>
+                                        <option value="+973">+973 (BH)</option>
                                     </select>
                                 </div>
-                                <div class="col-md-8 col-6"><input type="number" id="phone" placeholder="Contact No. "
+                                <div class="col-md-8 col-6"><input type="text" id="phoneOne" placeholder="Contact no. "
                                         name="phone" required></div>
                             </div>
                             <div class="form-group">
@@ -195,3 +195,12 @@
         </div>
     </div>
 </section>
+<script>
+    const numericInput = document.getElementById('phoneOne');
+
+numericInput.addEventListener('input',(event) =>{
+    const inputValue = event.target.value;
+    const numericValue = inputValue.replace(/[^0-9]/g,'');
+    event.target.value = numericValue;
+});
+</script>
