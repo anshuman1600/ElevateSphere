@@ -51,6 +51,11 @@ const Meta_Tag = [
       content:
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
     },
+    og_tag_title: "Best IT Company in Lucknow - Moundweb IT & Web Development",
+    og_tag_url: "https://moundweb.com/",
+    og_tag_desc:"Moundweb IT & Web Solutions is the Best IT Company in Lucknow. We are a Top-Rated, 6+ yrs old IT Company in India. For more Business and related Query Feel Free to contact Us. " ,
+    og_alt_tag:"Home - Best IT Company in Lucknow",
+    
   },
   //meta 2 about
   {
@@ -58,7 +63,7 @@ const Meta_Tag = [
     pg_title: "About Us - Best IT Company in Lucknow ",
     link:{
       rel: "canonical",
-      href: "https://moundweb.com/",
+      href: "https://moundweb.com/about",
     },
     meta_1: {
       name: "description",
@@ -70,6 +75,10 @@ const Meta_Tag = [
       content:
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
     },
+    og_tag_title: "About Us - Best IT Company in Lucknow ",
+    og_tag_url: "https://moundweb.com/about",
+    og_tag_desc:"Moundweb IT & Web Solutions is one of the best IT Company in Lucknow. We are the best IT & Software Company in Lucknow. We are the top-rated, 15+ Yrs old IT Company in India. " ,
+    og_alt_tag:"About Us - Best IT Company in Lucknow",
   },
   //meta 3 contact us
   {
@@ -89,6 +98,10 @@ const Meta_Tag = [
         content:
           "Best IT Company in Lucknow, Best IT Company in India, Top IT Company in Lucknow, Top IT Company",
       },
+      og_tag_title: "Contact Us - Moundweb IT & Web Development ",
+      og_tag_url: "https://moundweb.com/contact-us",
+      og_tag_desc:"Moundweb IT & Web Solutions is one of the best IT Company in Lucknow. We are the best IT & Software Company in Lucknow. We are the top-rated, 15+ Yrs old IT Company in India. " ,
+      og_alt_tag:"Contact Us - Best IT Company in Lucknow",
     },
     // meta 4 graphic Designing
     {
@@ -108,11 +121,15 @@ const Meta_Tag = [
       content:
         "Best Graphic Designing Company in Lucknow, Graphic Designing Company in india, Top Graphic Designing Company in Lucknow, Graphic Designing Company in Lucknow,Graphic Designing Company",
     },
+    og_tag_title: "Best Graphic Designing Company in Lucknow - Moundweb IT & Web Development  ",
+    og_tag_url: "https://moundweb.com/best-Graphic-design-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is one of the best Graphic Designing Company in Lucknow. We are the best IT & Graphic Designing Company in Lucknow. We are the top-rated, 15+ Yrs old IT Company in India. " ,
+    og_alt_tag:"Best Graphic Designing Company in Lucknow ",
   },
   // meta 5 digital marketing course
   {
     page: "Digital Marketing Course",
-    pg_title: "Digital Marketing - Moundweb IT & Web Development",
+    pg_title: "Digital Marketing Course - Moundweb IT & Web Development",
     link:{
       rel: "canonical",
       href: "https://moundweb.com/best-digital-marketing-course",
@@ -125,8 +142,12 @@ const Meta_Tag = [
     meta_2: {
       name: "keywords",
       content:
-        "Best Digital Marketing Course in Lucknow, Digital Marketing Course in india, Top Digital Marketing Course in Lucknow, Digital Marketing Course in Lucknow, Digital Marketing Course",
+        "If you want to learn Digital Marketing Course in Lucknow you can visit Moundweb. We are providing deep Practical knowledge of Digital Marketing.",
     },
+    og_tag_title: "Digital Marketing Course- Moundweb IT & Web Development ",
+    og_tag_url: "https://moundweb.com/best-digital-marketing-course",
+    og_tag_desc:"If you want to learn Digital Marketing Course in Lucknow you can visit Moundweb. We are providing deep Practical knowledge of Digital Marketing. " ,
+    og_alt_tag:"Best Digital Marketing Course in Lucknow ",
   },
   // meta 6 web development course
   {
@@ -139,13 +160,17 @@ const Meta_Tag = [
     meta_1: {
       name: "description",
       content:
-        "Moundweb IT & Web Solutions is one of the best IT Company in Lucknow. We are the best IT & Graphic Designing Company in Lucknow. We are the top-rated, 15+ Yrs old IT Company in India.",
+        "If you want to learn Web Development Course in Lucknow you can visit Moundweb. We are providing deep Practical knowledge of Web Development.",
     },
     meta_2: {
       name: "keywords",
       content:
         "Best Web Development Course in Lucknow, Web Development Course, Top Web Development Course in Lucknow, Web Development Course in Lucknow, Web Development Course",
     },
+    og_tag_title: "Website Development Course - Moundweb IT & Web Development ",
+    og_tag_url: "https://moundweb.com/best-web-development-course",
+    og_tag_desc:"If you want to learn Web Development Course in Lucknow you can visit Moundweb. We are providing deep Practical knowledge of Web Development." ,
+    og_alt_tag:"Best Web Development Course in Lucknow",
   },
   // meta 7 Influencer Marketing
   {
@@ -165,11 +190,15 @@ const Meta_Tag = [
       content:
       "Best Influencer Marketing Company in Lucknow, Best Influencer Marketing Company in India, Top Influencer Marketing Company in Lucknow, Top Influencer Marketing Company,Influencer Marketing Company",
     },
+    og_tag_title: "Influencer Marketing Company - Moundweb IT & Web Development",
+    og_tag_url: "https://moundweb.com/best-influencer-marketing-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is one of the best IT Company in Lucknow. We are the best IT & Influencer Marketing Company in Lucknow. We are the top-rated, 15+ Yrs old IT Company in India." ,
+    og_alt_tag:"Best Influencer Marketing Company in Lucknow",
   },
   // meta 8 web development service
   {
     page: "Web Development Services" ,
-    pg_title: "Best Website Development Company in Lucknow - Moundweb IT &amp; Web Solutions",
+    pg_title: "Best Website Development Service Company in Lucknow - Moundweb IT &amp; Web Solutions",
     link:{
       rel: "canonical",
       href: "https://moundweb.com/best-web-development-service",
@@ -184,6 +213,10 @@ const Meta_Tag = [
       content:
         "Best Web Development Service Company in Lucknow, Best Web Development Service Company in India, Top Web Development Service Company in Lucknow, Top Web Development Service Company",
     },
+    og_tag_title: "Best Website Development Service Company in Lucknow - Moundweb IT &amp; Web Solutions",
+    og_tag_url: "https://moundweb.com/best-web-development-service",
+    og_tag_desc:"Are you Looking for a Website Development Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading web Development Company in Lucknow, India. For more Information you can contact us." ,
+    og_alt_tag:"Best Web Development Service Company in Lucknow",
   },
   // meta 9 career
   {
@@ -203,6 +236,10 @@ const Meta_Tag = [
       content:
         "Best Career Company in Lucknow, Best Career Company in India, Top Career Company in Lucknow, Top Career Comapany",
     },
+    og_tag_title: "Best IT Company in Lucknow - Moundweb IT & Web Development",
+    og_tag_url: "https://moundweb.com/career",
+    og_tag_desc:"Are you Looking for a Career Company in Lucknow? Moundweb IT &amp; Web Solutions is a leading Career Company in Lucknow, India. For more Information you can contact us." ,
+    og_alt_tag:"Best IT Company in Lucknow - Moundweb IT & Web Development",
   },
   // meta 10 private policy
   {
@@ -222,6 +259,10 @@ const Meta_Tag = [
       content:
         "Best IT Company in Lucknow, Best IT Company in India, Top IT Comapany in Lucknow, Top IT Comapany",
     },
+    og_tag_title: "Moundweb Private Policy - Moundweb IT & Web Development",
+    og_tag_url: "https://moundweb.com/private_policy",
+    og_tag_desc:"Discover Moundweb IT & Web Solutions, a premier company in Lucknow, India. Reach out to us for further information, aligning with our privacy policy." ,
+    og_alt_tag:"Moundweb Private Policy - Moundweb IT & Web Development",
   },
 ];
 
@@ -230,8 +271,7 @@ const Meta_Tag = [
 const Development = [
   //1. Website development
   {
-   pg_title:
-      "Best Website Development Company in Lucknow - Moundweb IT & Web Solutions",
+   pg_title:"Best Website Development Company in Lucknow - Moundweb IT & Web Solutions",
     type: "Development",
     link:{
       rel: "canonical",
@@ -247,8 +287,13 @@ const Development = [
       content:
         "Best Web Development Company in Lucknow, Best Web Development Company in India, Top Web Development Company in Lucknow, Top Web Development Company, Web Development Company",
     },
+    og_tag_title: "Best Website Development Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-website-development-company",
+    og_tag_desc:"Are you Looking for a Website Development Company in Lucknow? Moundweb IT & Web Solutions is a leading web Development Company in Lucknow, India. For more Information you can contact us." ,
+    og_alt_tag:"Best Website Development Company in Lucknow",
     page: "Website Development",
     title: "Best Website Development Company in Lucknow",
+    alt_tag: "Best Website Development Company in Lucknow",
     hero_image: "images/banner/banner_web.png",
     description_title: "Best Website Development Company in Lucknow",
     description_desc:
@@ -489,7 +534,12 @@ const Development = [
         "Best App Development Company in Lucknow, Best App Development Company in India, Top App Development Company in Lucknow, Top App Development Company,App Development Company",
     },
     page: "App Development",
+    og_tag_title: "Mobile App Development Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-app-development-company",
+    og_tag_desc:"Are you looking for the best mobile app development company in Lucknow? Moundweb IT & Web Solutions is a leading App development company in Lucknow, India. We provide App Development Services across India at Affordable Price.0." ,
+    og_alt_tag:"Best App Development Company in Lucknow",
     title: "Top Leading Mobile App Development Company",
+    alt_tag: "Best App Development Company in Lucknow",
     hero_image: "images/banner/banner_app.png",
     description_title: "Best Mobile App Development Company in Lucknow",
     description_desc:
@@ -721,7 +771,12 @@ const Development = [
         "Best Blockchain Development Company in Lucknow, Best Blockchain Development Company in India, Top Blockchain Development Company in Lucknow, Top Blockchain Development Company,Blockchain Development Company",
     },
     page: "Blockchain Development",
-    title: "Top Leading Blockchain  Development Company",
+    og_tag_title: "Best Blockchain Development Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/blockchain-development-company",
+    og_tag_desc:"Looking For The Best Blockchain Development Company in Lucknow? Moundweb is the Best Blockchain Development Company in Lucknow. We provide the best Blockchain Development services." ,
+    og_alt_tag:"Best Blockchain Development Company in Lucknow",
+    title: "Best Leading Blockchain Development Company in Lucknow",
+    alt_tag: "Best Blockchain Development Company in Lucknow",
     hero_image: "images/banner/2.jpg",
     description_title: "Best Blockchain Development Company in Lucknow",
     description_desc:
@@ -962,7 +1017,12 @@ const Development = [
         "Best Software Development Company in Lucknow, Best Software Development Company in India, Top Software Development Company in Lucknow, Top Software Development Company,Software Development Company",
     },
     page: "Software Development",
-    title: "Top Software Development Company in Lucknow",
+    og_tag_title: "Best Software Development Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/software-development-company",
+    og_tag_desc:"If You Looking For The Best Software Development Company in Lucknow, you can visit Moundweb. We provide ERP, Microfinance Accounting, Billing Software in Lucknow." ,
+    og_alt_tag:"Best Software Development Company in Lucknow",
+    title: "Best Software Development Company in Lucknow",
+    alt_tag: "Best Software Development Company in Lucknow",
     hero_image: "images/banner/banner_softd.png",
     description_title: "Best Software Development Company in Lucknow",
     description_desc:
@@ -1187,8 +1247,7 @@ const Development = [
   //5. E-commerce Development
   {
     type: "Development",
-    pg_title:
-      "Best E-commerce Website Development Company in Lucknow - Moundweb IT & Web Solutions",
+    pg_title:"Best E-commerce Website Development Company in Lucknow - Moundweb IT & Web Solutions",
       link:{
         rel: "canonical",
         href: "https://moundweb.com/e-commerce-development-company",
@@ -1204,7 +1263,12 @@ const Development = [
         "Best E-commerce Development Company in Lucknow, Best E-commerce Development Company in India, Top E-commerce Development Company in Lucknow, Top E-commerce Development  Company,E-commerce Development Company",
     },
     page: "E-commerce Development",
-    title: "E-Commerce Website Development Company in Lucknow",
+    og_tag_title: "Best E-commerce Website Development Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/e-commerce-development-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is the Most Trusted E-commerce Website Development Company in Lucknow. We provide expert E-commerce website development services to help businesses thrive online." ,
+    og_alt_tag:"Best E-commerce Website Development Company in Lucknow",
+    title: "Best E-Commerce Website Development Company in Lucknow",
+    alt_tag: "Best E-commerce Website Development Company in Lucknow",
     hero_image: "images/banner/8.jpg",
     description_title:
       "Best E-commerece Website Development Company in Lucknow",
@@ -1447,7 +1511,12 @@ const Development = [
         "Best Digital Marketing Company in Lucknow, Best Digital Marketing Company in India, Top Digital Marketing Company in Lucknow, Top Digital Marketing Company,Digital Marketing Company ",
     },
     page: "Digital Marketing",
-    title: "Top Leading Digital Marketing Company in Lucknow",
+    og_tag_title: "Best Digital Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-digital-marketing-company",
+    og_tag_desc:"If you are searching for the best Digital Marketing & IT Company in Lucknow, you can visit Moundweb IT & Web Solutions. We provide Best Digital Marketing Services in Lucknow. For more information you can visit us." ,
+    og_alt_tag:"Best Digital Marketing Company in Lucknow",
+    title: "Best Leading Digital Marketing Company in Lucknow",
+    alt_tag: "Best Digital Marketing Company in Lucknow",
     title_desc:
       "Boost Your Online Presence and Drive Results with Our Dynamic Digital Marketing Solutions",
     hero_image: "images/hero/digital-marketing.png",
@@ -1671,6 +1740,11 @@ const Development = [
         "Best Seo Company in Lucknow, Best Seo Company in India, Top Seo Company in Lucknow, Top Seo Company,Seo Company,seo ",
     },
     page: "Seo Marketing",
+    og_tag_title: "Best SEO Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-seo-company",
+    og_tag_desc:"Moundweb IT & Web Solutions has the best search engine optimization team in Lucknow India. We are the best SEO company offering SEO services in Lucknow. For more Information you can contact us." ,
+    og_alt_tag:"Top Seo Company in Lucknow",
+    alt_tag: "Top SEO Company in Lucknow",
     title: "Top Leading Search Engine Optimization Company in Lucknow",
     title_desc:
       "Amplify Your Online Visibility and Achieve Measurable Outcomes through Our Cutting-Edge SEO Strategies",
@@ -1952,6 +2026,11 @@ const Development = [
         "Best Social Media Marketing Company in Lucknow, Best Social Media Marketing Company in India, Top Social Media Marketing Company in Lucknow, Top Social Media Marketing Company, Social Media Marketing Company, smm",
     },
     page: "Seo Marketing",
+    og_tag_title: "Best (SMM) Social Media Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-smm-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is the Best Social Media Marketing Company in Lucknow. We provide the best SMM Services across India at Affordable Price. For more Information you can contact us." ,
+    og_alt_tag:"Best Social Media Marketing Company in Lucknow",
+    alt_tag: "Best Social Media Marketing Company in Lucknow",
     title: "Best Social Media Marketing (SMM) Company in Lucknow",
     title_desc:
       "Engage your audience, expand your reach and drive results with our social media marketing expertise.",
@@ -2248,7 +2327,12 @@ const Development = [
         "Best Social Media Management Company in Lucknow, Best Social Media Management Company in India, Top Social Media Management Company in Lucknow, Top Social Media Management Company, Social Media Management Company, social media management",
     },
     page: "Social Media Management Marketing",
-    title: "Best Social Media Management Company in Lucknow",
+    og_tag_title: "Best Social Media Management Company in Lucknow -  Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-social-media-management-company",
+    og_tag_desc:"If you are searching for the best Social Media Management Company in Lucknow, you can visit Moundweb IT & Web Solutions. We are the best Social Media Management Company in Lucknow." ,
+    og_alt_tag:"Top Social Media Management Company in Lucknow",
+    alt_tag: "Top Social Media Management Company in Lucknow",
+    title: "Top Social Media Management Company in Lucknow",
     title_desc:
       "Boost your online presence and connect with your audience effortlessly with our expert social media management.",
     hero_image: "images/common/SmManagement/hero_image.png",
@@ -2542,7 +2626,12 @@ const Development = [
       content:
         "Best PPC Advertising Company in Lucknow, Best PPC Advertising Company in India, Top PPC Advertising Company in Lucknow, Top PPC Advertising Company, PPC Advertising Company, PPC Advertising",
     },
-    page: "Social Media Management Marketing",
+    page: "Pay Per Click Page",
+    og_tag_title: "Best PPC Advertising Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-ppc-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is a well-known PPC advertising Company in Lucknow that provides quality digital marketing services in Lucknow. For more information you can visit us." ,
+    og_alt_tag:"Best PPC Advertising Company in Lucknow",
+    alt_tag: "Best PPC Advertising Company in Lucknow",
     title: "Best PPC Advertising Company in Lucknow",
     title_desc:
       "Unleash the Power of Clicks: Drive Conversions and Outperform Your Competitors with PPC Advertising",
@@ -2770,6 +2859,11 @@ const Development = [
         "Best Bulk SMS Service Provider in Lucknow, Best Bulk SMS Service Provider in India, Top Bulk SMS Service Provider in Lucknow, Top Bulk SMS Service Provider, Bulk SMS Service Provider, Bulk SMS Service",
     },
     page: "Bulk SMS Marketing",
+    og_tag_title: "Best Bulk SMS Service Provider Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-bulk-sms-company",
+    og_tag_desc:"If you are Looking for the best Bulk SMS Service Provider in Lucknow, you can visit Moundweb IT & Web Solutions. we are the best bulk sms service provider in Lucknow." ,
+    og_alt_tag:"Best Bulk SMS Marketing Company in Lucknow",
+    alt_tag: "Best Bulk SMS Marketing Company in Lucknow",
     title: "BULK SMS Service for Lucknow Promotional Bulk SMS | Transactional Bulk SMS | Voice SMS | OTP SMS",
     title_desc:
       "Unlock Limitless Growth: Boost Your Website's Impact with Bulk SMS!",
@@ -2940,6 +3034,11 @@ const Development = [
         "Best Email Marketing Company in Lucknow, Best Email Marketing Company in India, Top Email Marketing Company in Lucknow, Top Email Marketing Company, Email Marketing Company, Email Marketing",
     },
     page: "Email Marketing",
+    og_tag_title: "Best Email Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-email-marketing-company",
+    og_tag_desc:"Moundweb IT & Web Solutions is Top leading Email Marketing company in Lucknow. We are offering professional Email Marketing at Affordable price. We provide a complete range of Email marketing services in Lucknow." ,
+    og_alt_tag:"Best Email Marketing Company in Lucknow",
+    alt_tag: "Best Email Marketing Company in Lucknow",
     title: "Best Email Marketing Company in Lucknow ",
     title_desc:
       "Drive traffic, boost conversions, and conquer search engines with our SEO-savvy email marketing strategies!",
@@ -3124,6 +3223,11 @@ const Development = [
         "Best Content Marketing Company in Lucknow, Best Content Marketing Company in India, Top Content Marketing Company in Lucknow, Top Content Marketing Company, Content Marketing Company, Content Marketing",
     },
     page: "Content Marketing",
+    og_tag_title: "Best Content Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-content-marketing-company",
+    og_tag_desc:"Unlock the potential of your brand with the best Content Marketing Company in Lucknow. We create engaging content that engages your audience and drives results." ,
+    og_alt_tag:"Best Content Marketing Company in Lucknow",
+    alt_tag: "Best Content Marketing Company in Lucknow",
     title: "Best Content Marketing Company in Lucknow ",
     title_desc:
       "Unlock the potential of your brand with the best Content Marketing Company in Lucknow. We create engaging content that engages your audience and drives results.",
@@ -3302,6 +3406,11 @@ const Development = [
         "Best Video Marketing Company in Lucknow, Best Video Marketing Company in India, Top Video Marketing Company in Lucknow, Top Video Marketing Company, Video Marketing Company, Video Marketing",
     },
     page: "Video Marketing",
+    og_tag_title: "Best Video Marketing Company in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/top-video-marketing-company",
+    og_tag_desc:"Are you Looking for the Best Video Marketing Company in Lucknow? Moundweb is the best Video Marketing Company in Lucknow. We Provide Best Video Marketing Service in Lucknow." ,
+    og_alt_tag:"Best Video Marketing Company in Lucknow",
+    alt_tag: "Best Video Marketing Company in Lucknow",
     title: "Best Video Marketing Company in Lucknow ",
     title_desc:
       "Lights On, Engagement Up: Drive Results with Dynamic Video Marketing Strategies!",
@@ -3479,19 +3588,23 @@ const Training = [
     },
     meta_1 : {
       name: "description",
-      content:  "Moundweb is the best Web Development Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
+      content:  "Moundweb is the best Web Development Course in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow.",
     },
     meta_2 : {
       name: "keywords",
-      content: "Best Web Development Training Company in Lucknow, Best Web Development Training Company in India, Top Web Development Training Company in Lucknow, Top Web Development Training Company, Web Development Training Company, Web Development Training",
+      content: "Best Web Development Course Provider Company  in Lucknow, Best Web Development Course  in India, Top Web Development Course  in Lucknow, Top Web Development Course , Web Development Course , Web Development Course",
     },
     page : "Web Development Training",
-    alt_tag:"Best Web Development Training - Best It Company in Lucknow",
+    og_tag_title: "Best Web Development Course in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-web-development-training",
+    og_tag_desc:"Moundweb is the best Web Development Course in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow." ,
+    og_alt_tag:"Best Web Development Course in Lucknow",
+    alt_tag:"Best Web Development Course in Lucknow",
     hero_title : "Best Web Development Course in Lucknow ",
     description_title : "Advance Web Development Course in Lucknow",
-    description_desc : " Are you looking for the best web development training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in web development. From HTML and CSS to JavaScript, PHP, and MySQL, we cover all the essential skills required to become a successful web developer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of web development and build a strong foundation for your career. Experience the power of web development with our exceptional training. Contact us today to take your career to new heights.", 
+    description_desc : " Are you looking for the best web development course training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in web development. From HTML and CSS to JavaScript, PHP, and MySQL, we cover all the essential skills required to become a successful web developer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of web development and build a strong foundation for your career. Experience the power of web development with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of  Web Development Course ",
-    advantage_desc : "The Best Web Development Training Company MoundWeb provides businesses with a strategic approach to content marketing, crafting compelling and relevant content that captivates audiences and drives engagement. Through audience targeting and personalization, they create personalized experiences that resonate with each segment. Their expertise in SEO optimization ensures improved search engine rankings and increased organic visibility. Leveraging various digital channels and platforms, they promote content effectively, maximizing brand exposure. With a data-driven approach, they measure performance and make informed decisions for continuous improvement. Offering cost-effectiveness and tangible results, the best content marketing company in Lucknow empowers businesses to enhance their online presence, engage their target audience, and drive sustainable growth.",
+    advantage_desc : "Moundweb provides Best Web Development course businesses with a strategic approach to content marketing, crafting compelling and relevant content that captivates audiences and drives engagement. Through audience targeting and personalization, they create personalized experiences that resonate with each segment. Their expertise in SEO optimization ensures improved search engine rankings and increased organic visibility. Leveraging various digital channels and platforms, they promote content effectively, maximizing brand exposure. With a data-driven approach, they measure performance and make informed decisions for continuous improvement. Offering cost-effectiveness and tangible results, the best content marketing company in Lucknow empowers businesses to enhance their online presence, engage their target audience, and drive sustainable growth.",
     advantage_tagline : "Advantages of Web Development Training",
     advantage_card : [
       "High demand: Web developers are in high demand due to the increasing need for online presence and digital solutions.",
@@ -3570,15 +3683,19 @@ const Training = [
     },
     meta_1 : {
       name: "description",
-      content:  "Moundweb is the Top Digital Marketing Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
+      content:  "Moundweb is the Top Digital Marketing Course Provider Company in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow.",
     },
     meta_2 : {
       name: "keywords",
-      content: "Best Digital Marketing Training Company in Lucknow, Best Digital Marketing Training Company in India, Top Digital Marketing Training Company in Lucknow, Top Digital Marketing Training Company, Digital Marketing Training Company, Digital Marketing Training",
+      content: "Best Digital Marketing Course  in Lucknow, Best Digital Marketing Course  in India, Top Digital Marketing Course  in Lucknow, Top Digital Marketing Course, Digital Marketing Course, Digital Marketing Course",
     },
     page : "Digital Marketing Training",
-    hero_title : "Top Digital Marketing Course in Lucknow ",
-    alt_tag:"Best Digital Marketing Training - Best It Company in Lucknow",
+    og_tag_title: "Best Digital Marketing Course in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-digital-marketing-training",
+    og_tag_desc:"Moundweb is the Top Digital Marketing Course Provider Company in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow." ,
+    og_alt_tag:"Best Digital Marekting Course in Lucknow",
+    hero_title:"Best Digital Marketing Course in Lucknow ",
+    alt_tag:"Best Digital Marketing Course in Lucknow",
     description_title : "Advance Digital Marketing Course in Lucknow",
     description_desc : " Are you looking for the best digital marketing training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in digital marketing. From SEO and PPC to social media marketing and content marketing, we cover all the essential skills required to become a successful digital marketer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of digital marketing and build a strong foundation for your career. Experience the power of digital marketing with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of Digital Marketing Training Course ",
@@ -3660,15 +3777,19 @@ const Training = [
     },
     meta_1 : {
       name: "description",
-      content:  "Moundweb is the Best Graphic Designing Training Company in Lucknow. We Provide Best Web Development Training in Lucknow. Join Best Web Development Training Institute in Lucknow.",
+      content:  "Moundweb is the Best Graphic Designing Course Provider in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow.",
     },
     meta_2 : {
       name: "keywords",
-      content: "Best Graphic Designing Training Company in Lucknow, Best Graphic Designing Training Company in India, Top Graphic Designing Training Company in Lucknow, Top Graphic Designing Training Company, Graphic Designing Training Company, Graphic Designing Training",
+      content: "Best Graphic Designing Course in Lucknow, Best Graphic Designing Course in India, Top Graphic Designing Course in Lucknow, Top Graphic Designing Course, Graphic Designing Course, Graphic Designing Course",
     },
     page : "Graphic Designing Training",
-    hero_title : "Top Graphic Designing Course in Lucknow ",
-    alt_tag:"Best Graphic Designing Training - Best It Company in Lucknow",
+    og_tag_title: "Best Graphic Designing Course in Lucknow - Moundweb IT & Web Solutions",
+    og_tag_url: "https://moundweb.com/best-graphic-designing-training",
+    og_tag_desc:"Moundweb is the Best Graphic Designing Course Provider in Lucknow. We Provide Best Web Development Course in Lucknow. Join Best Web Development Training Institute in Lucknow." ,
+    og_alt_tag:"Best Graphic Designing Course in Lucknow",
+    hero_title : "Best Graphic Designing Course in Lucknow ",
+    alt_tag:"Best Graphic Designing Course in Lucknow",
     description_title : "Advance Graphic Designing Course in Lucknow",
     description_desc : "Are you looking for the best graphic designing training company to take your career to the next level? You are in the right place! Our team of skilled professionals specializes in providing comprehensive training in graphic designing. From Adobe Photoshop and Illustrator to CorelDraw, we cover all the essential skills required to become a successful graphic designer. With a practical approach and a deep understanding of the latest technologies, we'll help you master the fundamentals of graphic designing and build a strong foundation for your career. Experience the power of graphic designing with our exceptional training. Contact us today to take your career to new heights.", 
     advantage_title : "Benefits of Graphic Designing Training Course ",
