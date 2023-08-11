@@ -1,20 +1,4 @@
-<style>
-    .bg-btn2 {
-        background: var(--hover-background) !important;
-    }
 
-    .s-card-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .card-resize {
-        width: 100%;
-        padding: 0 50px !important;
-    }
-
-</style>
 
 <section class="service-block bg-gradient6 pad-tb">
     <div class="container">
@@ -34,7 +18,7 @@
                 -webkit-transition: -webkit-line-clamp 2s ease"  >
                 <div class="s-block wide-sblock s-card-box">
                     <div class="s-card-icon-large" style="margin: 0 auto; margin-bottom: 10px;"><img
-                            src="images/service/mob-service-item2.png" loading="lazy" alt="<%= alt_tag %>" title="Moundweb It & Web Solutions" class="img-fluid"></div>
+                            src="images/service/mob-service-item2.png"  alt="<%= alt_tag %>" title="<%= title_tag %>" class="img-fluid"></div>
                     <div class="s-block-content-large card-resize">
                         <h4 style="margin-top: 5px ;">iOS App Development Services</h4>
                         <p class="box-content1" style=" display: -webkit-box;
@@ -63,7 +47,7 @@
                 style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                 <div class="s-block wide-sblock s-card-box">
                     <div class="s-card-icon-large" style="margin: 0 auto; margin-bottom: 10px">
-                        <img src="images/service/mob-service-item1.png" loading="lazy" alt="<%= alt_tag %>" title="Moundweb It & Web Solutions" class="img-fluid">
+                        <img src="images/service/mob-service-item1.png"  alt="<%= alt_tag %>" title="<%= title_tag %>" class="img-fluid">
                     </div>
                     <div class="s-block-content-large card-resize">
                         <h4 style="margin-top: 5px;">Android App Development Services</h4>
@@ -99,36 +83,3 @@
     </div>
 </section>
 
-<script>
-    // Function to handle the click event for the first service card
-function toggleBoxContent1() {
-  var boxContent1 = $('.box-content1');
-  var buttom_1 = $('#button_show_1');
-  if (boxContent1.css('-webkit-line-clamp') === '5') {
-    boxContent1.css('-webkit-line-clamp', 'unset');
-    buttom_1.html('See Less <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>');
-  } else {
-    boxContent1.css('-webkit-line-clamp', '5');
-    buttom_1.html('See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>');
-  }
-}
-
-// Function to handle the click event for the second service card
-function toggleBoxContent2() {
-  var boxContent2 = $('.box-content2');
-    var buttom_2 = $('#button_show_2');
-
-  if (boxContent2.css('-webkit-line-clamp') === '5') {
-    boxContent2.css('-webkit-line-clamp', 'unset');
-    buttom_2.html('See Less <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>');
-  } else {
-    boxContent2.css('-webkit-line-clamp', '5');
-    buttom_2.html('See More <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>');
-  }
-}
-
-// Attach the click event handlers to the respective service cards
-$('.col-lg-6.col-sm-6.mt30.wow.fadeInUp[data-wow-delay=".2s"]').click(toggleBoxContent1);
-$('.col-lg-6.col-sm-6.mt30.wow.fadeInUp[data-wow-delay=".4s"]').click(toggleBoxContent2);
-
-</script>

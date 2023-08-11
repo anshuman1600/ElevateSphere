@@ -1,19 +1,4 @@
-<style>
-    .bg-btn{
-        background:var( --hover-background ) !important;
-    }
-    .hover_price:hover{
-        transition: all .5s ease-in-out;
-        transform: scale(1.01)
-    }
-    .list-hover:hover{
-        transition: all .2s ease-out;
-        transform: scale(1.05);
-        cursor: pointer;
-        color: orangered;
-    }
 
-</style>
 
 <section class="block-a1 pad-tb">
     <div class="container">
@@ -31,7 +16,7 @@
             <div class="col-lg-4 col-md-6 hover_price">
                 <div class="pricing-table mt60  ">
                     <div class="inner-table">
-                        <img src="<%= item.image %>" loading="lazy" alt="<%= alt_tag %>" title="Moundweb It & Web Solutions" />
+                        <img src="<%= item.image %>"  alt="<%= alt_tag %>" title="<%= title_tag %>" />
                         <span class="title" style="font-size: 1.5rem;"><%= item.title %></span>
                         <p class="title-sub"><%= item.description %></p>
                         <h3 style="color: orangered;"><%= item.rate %></h3>
